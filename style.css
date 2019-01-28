@@ -903,12 +903,22 @@ a.video-popup-holder:hover img.popup-play
 
 #contact .section-title-holder span
 {
-    color: #FFC823;
+    color: #000000;
 }
 
 #contact .section-content-holder
 {
     padding-bottom: 0;
+}
+
+#contact .contact-text
+{
+    color: black;
+}
+
+#contact .contact-text .emphasize
+{
+    color: black;
 }
 
 .map 
@@ -1034,7 +1044,7 @@ p.custom-field-class
     margin-top: 30px;
     vertical-align: middle;
     text-decoration: none;
-    background: transparent;
+	background-color: #FFC823;
     font-family: 'Roboto', sans-serif;
     width: 100%;
     text-transform: uppercase;
@@ -1044,8 +1054,8 @@ p.custom-field-class
 
 .contact-form #sendMail:hover
 {
-    color: white;
-    background-color: #FFC823;
+    color: black;
+	background: transparent;
 }
 
 div.contact-form-response-output
