@@ -377,7 +377,8 @@ h1.big-title
 
 #portfolio .section-title-holder
 {
-    background-color: #FFC823;
+    background-color: #000000;
+    color: white;
 }
 
 #portfolio .section-title-holder span
@@ -574,7 +575,7 @@ div.pp_default .pp_loaderIcon
 
 #about .section-title-holder
 {
-    background-color: #000000;
+    background-color: #FFC823;
 }
 
 #about .section-title-holder span
@@ -821,6 +822,7 @@ a.video-popup-holder:hover img.popup-play
 .progress_bar 
 {
     margin-bottom: 15px;
+    color: black !important;
 }
 
 .progress_bar_field_holder 
@@ -899,6 +901,7 @@ a.video-popup-holder:hover img.popup-play
 #contact .section-title-holder
 {
     background-color: #FFC823;
+    color: black;
 }
 
 #contact .section-title-holder span
@@ -1234,17 +1237,6 @@ footer
     {    
         width: 250px;
         height: 250px;
-    }
-
-    .section-num
-    {
-        margin-top: 20px;
-    }
-
-    .section-num span 
-    {
-        margin-left: -35px;    
-        font-size: 100px;
     }
 
     .section-title-holder h2
