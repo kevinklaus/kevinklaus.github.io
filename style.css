@@ -819,13 +819,13 @@ a.video-popup-holder:hover img.popup-play
     z-index: 4; */
 }
 
-#portfolio .section-title-holder
+#skills .section-title-holder
 {
     background-color: #000000;
     color: white;
 }
 
-#portfolio .section-title-holder span
+#skills .section-title-holder span
 {
     color: #FFC823;
 }
