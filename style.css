@@ -68,7 +68,7 @@ body a:hover
 {    
     transition: background-color .2s linear;
     z-index: 99 !important;
-    background-color: #221C5A;
+    background-color: #FFC823;
     width: 100% !important;
     top: 0;
     position: fixed;
@@ -564,12 +564,12 @@ div.pp_default .pp_loaderIcon
 
 #about
 {
-    background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/background_img_03.jpg"); 
+    background-color: rgb(0, 0, 0);
+   /* background-image: url("demo-images/background_img_03.jpg");
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: cover; 
-    z-index: 7;
+    z-index: 7;*/
 }
 
 #about .section-title-holder
@@ -810,12 +810,12 @@ a.video-popup-holder:hover img.popup-play
 
 #skills
 {
-    background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/item_background_01.jpg"); 
+    background-color:  #FFC823;
+    /*background-image: url("demo-images/item_background_01.jpg");
     background-repeat: no-repeat; 
-    background-position: left top; 
-    background-size: 100%; 
-    z-index: 4;
+    background-position: left top;
+    background-size: 100%;
+    z-index: 4; */
 }
 
 .progress_bar 
@@ -888,12 +888,12 @@ a.video-popup-holder:hover img.popup-play
 
 #contact
 {
-    background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/background_img_05b.jpg"); 
+    background-color: rgb(0, 0, 0);
+    /*background-image: url("demo-images/background_img_05b.jpg");
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: auto; 
-    z-index: 3;
+    z-index: 3;*/
 }
 
 #contact .section-title-holder
@@ -1023,7 +1023,7 @@ p.custom-field-class
     padding-top: 0;
 }
 
-.contact-form input[type=submit]
+.contact-form #sendMail
 {	
     color: #e54b76;
     display: inline-block;
@@ -1042,7 +1042,7 @@ p.custom-field-class
     transition: all .2s linear;
 }
 
-.contact-form input[type=submit]:hover
+.contact-form #sendMail:hover
 {
     color: white;
     background-color: #e54b76;
