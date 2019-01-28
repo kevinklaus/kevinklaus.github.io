@@ -4,19 +4,19 @@ body
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
-    color: #23214c;    
+    color: #FFC823;
 }
 
 body a
 {
     text-decoration: none;
-    color: #23214c;
+    color: #000000;
     transition: color .2s linear;
 }
 
 body a:hover
 {
-    color: #ee87a4;
+    color: #FFC823;
 }
 
 .doc-loader 
@@ -149,7 +149,7 @@ body a:hover
 
 .section-title-holder
 {
-    background-color: #32DB8A;
+    background-color: #FFC823;
     width: 370px;
     height: 370px;    
     z-index: 2;
@@ -158,7 +158,7 @@ body a:hover
 .section-num span
 {    
     margin-left: -64px;
-    color: #55B286;
+    color: #FFC823;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 180px;
@@ -221,7 +221,7 @@ body a:hover
     line-height: 100%;
     text-transform: uppercase;
     margin-top: -75px;
-    color: #221c5a;    
+    color: #FFC823;
 }
 
 .extra-content-left
@@ -259,7 +259,7 @@ body a:hover
 {
     padding-bottom: 170px;
     min-height: calc(100vh - 170px);
-    background-color: #221c5a; 
+    background-color: #FFC823;
     background-image:url(demo-images/background_img_01b.jpg); 
     background-repeat: repeat; 
     background-position: center top; 
@@ -317,7 +317,7 @@ h1.big-title
 
 #services
 {
-    background-color: #221c5a;
+    background-color: #FFC823;
     z-index: 9;
 }
 
@@ -377,12 +377,12 @@ h1.big-title
 
 #portfolio .section-title-holder
 {
-    background-color: rgb(255, 186, 66);
+    background-color: #FFC823;
 }
 
 #portfolio .section-title-holder span
 {
-    color: #e3a436;
+    color: #FFC823;
 }
 
 .page-template-page-portfolio .section
@@ -403,7 +403,7 @@ h1.big-title
     font-weight: 700;
     font-size: 20px;
     width: 430px;
-    background-color: #E74C78;
+    background-color: #000000;
     text-align: center;
 }
 
@@ -574,12 +574,12 @@ div.pp_default .pp_loaderIcon
 
 #about .section-title-holder
 {
-    background-color: #e64b77;
+    background-color: #000000;
 }
 
 #about .section-title-holder span
 {
-    color: #b24564;
+    color: #000000;
 }
 
 #about .section-content-holder
@@ -618,7 +618,7 @@ div.pp_default .pp_loaderIcon
     line-height: 16px;
     font-size: 14px;
     padding-bottom: 50px;
-    color: #ee87a4;
+    color: #FFC823;
     letter-spacing: 4px;
 }
 
@@ -898,12 +898,12 @@ a.video-popup-holder:hover img.popup-play
 
 #contact .section-title-holder
 {
-    background-color: rgb(230, 75, 119);
+    background-color: #FFC823;
 }
 
 #contact .section-title-holder span
 {
-    color: #b24564;
+    color: #FFC823;
 }
 
 #contact .section-content-holder
@@ -946,7 +946,7 @@ p.custom-field-class
 
 .contact-form input[type=text], .contact-form input[type=email], .contact-form textarea
 {
-    color: #23214c;
+    color: #000000;
     border: 0;
     border-bottom: 1px solid #1c1c1c;
     height: 28px;    
@@ -961,7 +961,7 @@ p.custom-field-class
 .contact-form input[type=text]::-webkit-input-placeholder, .contact-form input[type=email]::-webkit-input-placeholder, .contact-form textarea::-webkit-input-placeholder
 {
     font-family: 'Roboto', sans-serif;
-    color: #23214c;
+    color: #000000;
     font-weight: 400;
     font-size: 16px;
     line-height: 25px;
@@ -969,7 +969,7 @@ p.custom-field-class
 .contact-form input[type=text]::-moz-placeholder, .contact-form input[type=email]::-moz-placeholder, .contact-form textarea::-moz-placeholder
 {
     font-family: 'Roboto', sans-serif;
-    color: #23214c;
+    color: #000000;
     font-weight: 400;
     font-size: 16px;
     line-height: 25px;
@@ -978,7 +978,7 @@ p.custom-field-class
 .contact-form input[type=text]:-ms-input-placeholder, .contact-form input[type=email]:-ms-input-placeholder, .contact-form textarea:-ms-input-placeholder
 {
     font-family: 'Roboto', sans-serif;
-    color: #23214c;
+    color: #000000;
     font-weight: 400;
     font-size: 16px;
     line-height: 25px;
@@ -986,7 +986,7 @@ p.custom-field-class
 .contact-form input[type=text]:-moz-placeholder, .contact-form input[type=email]:-moz-placeholder, .contact-form textarea:-moz-placeholder
 {
     font-family: 'Roboto', sans-serif;
-    color: #23214c;
+    color: #000000;
     font-weight: 400;
     font-size: 16px;
     line-height: 25px;
@@ -1025,9 +1025,9 @@ p.custom-field-class
 
 .contact-form #sendMail
 {	
-    color: #e54b76;
+    color: #000000;
     display: inline-block;
-    border: 2px solid #e54b76;
+    border: 2px solid #000000;
     text-align: center;
     padding: 12px 0px;
     cursor: pointer;
@@ -1045,7 +1045,7 @@ p.custom-field-class
 .contact-form #sendMail:hover
 {
     color: white;
-    background-color: #e54b76;
+    background-color: #FFC823;
 }
 
 div.contact-form-response-output
@@ -1067,7 +1067,7 @@ span.contact-form-not-valid-tip
 
 footer
 {
-    background-color: #221C5A;
+    background-color: #FFC823;
 }
 
 .footer
@@ -1075,7 +1075,7 @@ footer
     font-size: 16px;
     line-height: 36px;
     clear: both;
-    color: #5b5881;
+    color: #000000;
     text-align: center;    
     padding: 100px 0;
 }
@@ -1092,7 +1092,7 @@ footer
 
 .footer a
 {
-    color: #5b5881;
+    color: #000000;
 }
 
 .social-footer a 
