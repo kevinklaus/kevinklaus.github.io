@@ -270,7 +270,7 @@ body a:hover
 .top-logo
 {
     width: 160px !important;    
-    padding-top: 150px;
+    padding-top: 120px;
 }
 
 h1.big-title
@@ -297,7 +297,7 @@ h1.big-title
     font-family: 'PT Serif', serif;
     font-size: 22px;
     line-height: 26px;
-    max-width: 333px; 
+    max-width: 400px;
     margin: 0 auto;
     color: #fff;
 }
@@ -367,12 +367,12 @@ h1.big-title
 
 #portfolio
 {
-    background-color: #221C5A; 
-    background-image: url("demo-images/background_img_02.jpg"); 
+    background-color: #FFC823; /* This ist the Brand-Yellow */
+    /*background-image: url("demo-images/background_img_02.jpg");
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: auto;
-    z-index: 8;
+    z-index: 8;*/
 }
 
 #portfolio .section-title-holder
