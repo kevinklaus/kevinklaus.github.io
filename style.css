@@ -4,7 +4,7 @@ body
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
-    color: #FFC823;
+    color: #000000;
 }
 
 body a
@@ -925,14 +925,9 @@ a.video-popup-holder:hover img.popup-play
     padding-bottom: 0;
 }
 
-#contact .contact-text
+#contact .emphasize
 {
-    color: black;
-}
-
-#contact .contact-text .emphasize
-{
-    color: black;
+    color: #FFC823;
 }
 
 .map 
