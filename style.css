@@ -68,6 +68,26 @@ body a:hover
 
 /* TOP MENU */
 
+#menu-logo
+{
+    height: 35px;
+    float: left;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+#menu-logo:hover
+{
+    height:35px;
+    display:block;
+    float: left;
+    padding-top: 15px;
+    padding-left: 15px;
+    background-image: url('images/logoSpinning.gif');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
 .menu-wrapper
 {    
     transition: background-color .2s linear;
@@ -120,6 +140,11 @@ body a:hover
 .sm-clean li.active a
 {
     color: #DC3C92 !important;
+}
+
+.sm-clean li.active.activeBlack a
+{
+    color: #000000 !important;
 }
 
 .mob-menu
@@ -256,8 +281,8 @@ body a:hover
 
 .top-logo
 {
-    width: 160px !important;    
-    padding-top: 100px;
+    width: 180px;
+    padding-top: 140px;
 }
 
 h1.big-title
@@ -266,10 +291,11 @@ h1.big-title
     font-size: 56px;
     font-weight: 700;
     line-height: 100%;
-    padding-top: 70px;
+    padding-top: 100px;
+    padding-bottom: 5%;
     color: #fff;
     letter-spacing: -1px;    
-    width: 95%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -282,9 +308,9 @@ h1.big-title
 .title-desc
 {
     font-family: 'PT Serif', serif;
-    font-size: 22px;
-    line-height: 26px;
-    max-width: 400px;
+    font-size: 30px;
+    line-height: 30px;
+    max-width: 460px;
     margin: 0 auto;
     color: #fff;
 }
@@ -354,7 +380,7 @@ h1.big-title
 
 #portfolio
 {
-    background-color: #FFC823; /* This ist the Brand-Yellow */
+    background-color: #DC3C92;
     /*background-image: url("demo-images/background_img_02.jpg");
     background-repeat: no-repeat; 
     background-position: center top; 
@@ -364,7 +390,7 @@ h1.big-title
 
 #portfolio .section-title-holder
 {
-    background-color: #000000;
+    background-color: #FFC823;
     color: #DC3C92;
 }
 
@@ -562,8 +588,8 @@ div.pp_default .pp_loaderIcon
 
 #about .section-title-holder
 {
-    background-color: #FFC823;
-    color: #DC3C92;
+    background-color: #DC3C92;
+    color:  #FFC823;
 }
 
 #about .section-title-holder span
@@ -584,7 +610,7 @@ div.pp_default .pp_loaderIcon
 .member-content-holder 
 {
     width: 330px;
-    padding: 90px 50px 50px 50px;
+    padding: 80px 50px 50px 50px;
     float: left;
 }
 
@@ -601,18 +627,19 @@ div.pp_default .pp_loaderIcon
 
 .member-name
 {
-    line-height: 26px;
-    font-size: 16px;
+    line-height: 40px;
+    font-size: 30px;
     font-weight: 700;
     padding: 0;
+    color: #FFC823;
 }
 
 .member-position
 {
     line-height: 16px;
     font-size: 14px;
-    padding-bottom: 50px;
-    color: #FFC823;
+    padding-bottom: 40px;
+    color: #DC3C92;
     letter-spacing: 4px;
 }
 
@@ -895,12 +922,12 @@ a.video-popup-holder:hover img.popup-play
 
 #contact
 {
-    background-color: rgb(0, 0, 0);
-    /*background-image: url("demo-images/background_img_05b.jpg");
-    background-repeat: no-repeat; 
-    background-position: center top; 
-    background-size: auto; 
-    z-index: 3;*/
+    background-color: #FFC823;
+    background-image: url("demo-images/background_img_02.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    z-index: 3;
 }
 
 #contact .section-title-holder
@@ -952,87 +979,8 @@ p.custom-field-class
     margin-bottom: 60px;
 }
 
-.contact-form input[type=text], .contact-form input[type=email], .contact-form textarea
-{
-    color: #000000;
-    border: 0;
-    border-bottom: 1px solid #1c1c1c;
-    height: 28px;    
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'Roboto', sans-serif;
-    width: 100%;
-    line-height: 25px;
-    padding: 0;
-}
-
-.contact-form input[type=text]::-webkit-input-placeholder, .contact-form input[type=email]::-webkit-input-placeholder, .contact-form textarea::-webkit-input-placeholder
-{
-    font-family: 'Roboto', sans-serif;
-    color: #000000;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
-}
-.contact-form input[type=text]::-moz-placeholder, .contact-form input[type=email]::-moz-placeholder, .contact-form textarea::-moz-placeholder
-{
-    font-family: 'Roboto', sans-serif;
-    color: #000000;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
-    opacity: 1;
-}
-.contact-form input[type=text]:-ms-input-placeholder, .contact-form input[type=email]:-ms-input-placeholder, .contact-form textarea:-ms-input-placeholder
-{
-    font-family: 'Roboto', sans-serif;
-    color: #000000;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
-}
-.contact-form input[type=text]:-moz-placeholder, .contact-form input[type=email]:-moz-placeholder, .contact-form textarea:-moz-placeholder
-{
-    font-family: 'Roboto', sans-serif;
-    color: #000000;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
-    opacity: 1;
-}
-
-.contact-form input[type=text], .contact-form input[type=email]
-{
-    padding-bottom: 5px;
-    margin-bottom: 25px;
-}
-
-.contact-form textarea
-{
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s linear;
-    -ms-transition: all 0.3s linear;
-    -o-transition: all 0.3s linear;
-    transition: all 0.3s linear;
-    padding-top: 13px;
-    overflow: hidden;
-    padding-bottom: 5px;
-}
-
-.contact-form textarea:focus
-{
-    height: 150px;
-    overflow: auto;
-}
-
-.contact-form input[name="your-name"]
-{
-    margin-top: 0;
-    padding-top: 0;
-}
-
 .contact-form #sendMail
-{	
+{
     color: white;
     display: inline-block;
     border: 2px solid #000000;
@@ -1056,18 +1004,6 @@ p.custom-field-class
 	background: #FFC823;
 }
 
-div.contact-form-response-output
-{
-    margin: 0;
-    font-size: 14px;
-    line-height: 20px;
-}
-
-span.contact-form-not-valid-tip
-{
-    font-size: 10px;
-}
-
 /* END CONTACT SECTION */
 
 
@@ -1076,6 +1012,11 @@ span.contact-form-not-valid-tip
 footer
 {
     background-color: #FFC823;
+}
+
+#footer-logo
+{
+    height: 35px;
 }
 
 .footer
@@ -1088,9 +1029,15 @@ footer
     padding: 100px 0;
 }
 
-.footer p:hover
+.footer a:hover
 {
     color: white;
+}
+
+copyright-footer
+{
+    color: white;
+    font-size: 6px;
 }
 
 .footer-left, .footer-right
@@ -1123,8 +1070,8 @@ footer
 
 #portfolio-1
 {
-    background-color: #221c5a;
-    background-image:url("demo-images/background_img_05b.jpg"); 
+    background-color: #FFC823;
+    background-image:url("images/background_img_02.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: auto; 
@@ -1133,8 +1080,8 @@ footer
 #portfolio-2
 {
 
-    background-color: #221c5a;
-    background-image: url(demo-images/item_background_01.jpg);
+    background-color: #FFC823;
+    background-image: url(images/background_img_02.jpg);
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 100% auto;
@@ -1162,7 +1109,7 @@ footer
 {
     top: -60px;
     right: -60px;
-    background-color: #26276d;
+    background-color: #FFC823;
     line-height: 0;
     font-size: 0;
     width: 60px;
@@ -1308,7 +1255,7 @@ footer
     .member-content-holder 
     {
         width: 275px;
-        padding: 50px;
+        padding: 50px 40px 30px 50px;
     }
 
     .member-image-holder 
@@ -1501,7 +1448,7 @@ footer
     .member-content-holder 
     {
         width: 40%;
-        padding: 10% 5% 5% 5%;
+        padding: 10% 5% 0% 2%;
     }
 
     .member-image-holder 
@@ -1582,12 +1529,12 @@ footer
     {    
         font-size: 19px;
         line-height: 23px;
+        max-width: 290px;
     }
 
     .mob-menu
     {
         display: block;
-        color: #DC3C92;
     }
 
     .mob-menu:hover
@@ -1646,6 +1593,14 @@ footer
         display: none !important;
     }
 
+    .top-logo
+    {
+        height: 120px;
+        width: 120px;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
 
 }
 
@@ -1654,17 +1609,31 @@ footer
     .contact-form input[type=text], .contact-form input[type=email], .contact-form textarea, p.custom-field-class, #commentform #email, #commentform #author, #commentform #comment
     {
         width: 100% !important;
-    }        
+    }
 
 }
 
 
 @media screen and (max-width: 650px) { 
 
+    .top-logo
+    {
+        height: 80px;
+        width: 80px;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    h1.big-title
+    {
+        width: 95%;
+    }
+
 
     .member-content-holder
     {
         width: 90%;
+        padding: 10% 5% 0% 2%;
         float: none;
     }
 
