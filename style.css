@@ -60,6 +60,10 @@ body a:hover
     line-height: 0;
 }
 
+.emphasize
+{
+    color: #DC3C92;
+}
 
 
 /* TOP MENU */
@@ -110,12 +114,12 @@ body a:hover
 
 .main-menu.sm-clean a:hover 
 {
-    color: #fff !important;
+    color: #DC3C92 !important;
 }
 
 .sm-clean li.active a
 {
-    color: #fff !important;
+    color: #DC3C92 !important;
 }
 
 .mob-menu
@@ -141,29 +145,12 @@ body a:hover
     z-index: 1;
 }
 
-.section-num
-{   
-    overflow: hidden;    
-    margin-top: 40px;
-}
-
 .section-title-holder
 {
     background-color: #FFC823;
     width: 370px;
     height: 370px;    
     z-index: 2;
-}
-
-.section-num span
-{    
-    margin-left: -64px;
-    color: #FFC823;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 180px;
-    line-height: 100%;
-    letter-spacing: -5px;
 }
 
 .section-title-holder h2
@@ -220,7 +207,7 @@ body a:hover
     font-size: 180px;
     line-height: 100%;
     text-transform: uppercase;
-    margin-top: -75px;
+    margin-top: -60px;
     color: #FFC823;
 }
 
@@ -270,7 +257,7 @@ body a:hover
 .top-logo
 {
     width: 160px !important;    
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 h1.big-title
@@ -279,7 +266,7 @@ h1.big-title
     font-size: 56px;
     font-weight: 700;
     line-height: 100%;
-    padding-top: 100px;
+    padding-top: 70px;
     color: #fff;
     letter-spacing: -1px;    
     width: 95%;
@@ -323,12 +310,12 @@ h1.big-title
 
 #services .section-title-holder
 {
-    background-color: #32DB8A
+    background-color: #FFC823
 }
 
 #services .section-title-holder span
 {
-    color: #55B286;
+    color: #DC3C92;
 }
 
 .service-holder 
@@ -378,7 +365,7 @@ h1.big-title
 #portfolio .section-title-holder
 {
     background-color: #000000;
-    color: white;
+    color: #DC3C92;
 }
 
 #portfolio .section-title-holder span
@@ -576,9 +563,15 @@ div.pp_default .pp_loaderIcon
 #about .section-title-holder
 {
     background-color: #FFC823;
+    color: #DC3C92;
 }
 
 #about .section-title-holder span
+{
+    color: #000000;
+}
+
+#about .content-title
 {
     color: #000000;
 }
@@ -762,6 +755,7 @@ div.pp_default .pp_loaderIcon
 #video .section-title-holder
 {
     background-color: rgb(255, 186, 66);
+    color: #DC3C92;
 }
 
 #video .section-title-holder span
@@ -822,7 +816,7 @@ a.video-popup-holder:hover img.popup-play
 #skills .section-title-holder
 {
     background-color: #000000;
-    color: white;
+    color: #DC3C92;
 }
 
 #skills .section-title-holder span
@@ -912,7 +906,7 @@ a.video-popup-holder:hover img.popup-play
 #contact .section-title-holder
 {
     background-color: #FFC823;
-    color: black;
+    color: #DC3C92;
 }
 
 #contact .section-title-holder span
@@ -923,11 +917,6 @@ a.video-popup-holder:hover img.popup-play
 #contact .section-content-holder
 {
     padding-bottom: 0;
-}
-
-#contact .emphasize
-{
-    color: #FFC823;
 }
 
 .map 
@@ -1044,7 +1033,7 @@ p.custom-field-class
 
 .contact-form #sendMail
 {	
-    color: #000000;
+    color: white;
     display: inline-block;
     border: 2px solid #000000;
     text-align: center;
@@ -1053,7 +1042,7 @@ p.custom-field-class
     margin-top: 30px;
     vertical-align: middle;
     text-decoration: none;
-	background-color: #FFC823;
+	background-color: #DC3C92;
     font-family: 'Roboto', sans-serif;
     width: 100%;
     text-transform: uppercase;
@@ -1064,7 +1053,7 @@ p.custom-field-class
 .contact-form #sendMail:hover
 {
     color: black;
-	background: transparent;
+	background: #FFC823;
 }
 
 div.contact-form-response-output
@@ -1099,6 +1088,11 @@ footer
     padding: 100px 0;
 }
 
+.footer p:hover
+{
+    color: white;
+}
+
 .footer-left, .footer-right
 {
     width: 810px;
@@ -1118,6 +1112,7 @@ footer
 {
     margin: 0 10px;
     font-size: 20px;
+    color: #DC3C92;
 }
 
 /* END FOOTER */
@@ -1592,6 +1587,7 @@ footer
     .mob-menu
     {
         display: block;
+        color: #DC3C92;
     }
 
     .mob-menu:hover
@@ -1682,7 +1678,17 @@ footer
     {
         right: auto;
         left: 30px;
-    }    
+    }
+
+    .progress_bar_title
+    {
+        font-size: 20px;
+    }
+
+    .progress_bar_percent_text
+    {
+        font-size: 20px;
+    }
 }
 
 
@@ -1708,5 +1714,15 @@ footer
     .image-slider-wrapper.service a.image_slider_next 
     {
         top: -84px;
+    }
+
+    .progress_bar_title
+    {
+        font-size: 25px;
+    }
+
+    .progress_bar_percent_text
+    {
+        font-size: 15px;
     }
 }
