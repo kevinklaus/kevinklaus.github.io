@@ -115,7 +115,7 @@ body a:hover
     font-size: 13px;
     line-height: 40px;
     color: #fff;
-    font-weight: 400;
+    font-weight: 600;
     transition: color .2s linear;
     text-transform: uppercase;
     letter-spacing: 0.03cm;
@@ -226,7 +226,7 @@ body a:hover
 
 .section-content-holder .content-title
 {
-    font-family: 'Montserrat';
+    /*font-family: 'Montserrat';*/
     font-weight: 700;
     text-align: center;
     font-size: 180px;
@@ -281,8 +281,8 @@ body a:hover
 
 .top-logo
 {
-    width: 180px;
-    padding-top: 140px;
+    width: 140px;
+    padding-top: 120px;
 }
 
 h1.big-title
@@ -291,8 +291,8 @@ h1.big-title
     font-size: 56px;
     font-weight: 700;
     line-height: 100%;
-    padding-top: 100px;
-    padding-bottom: 5%;
+    padding-top: 60px;
+    padding-bottom: 20px;
     color: #fff;
     letter-spacing: -1px;    
     width: 65%;
@@ -308,9 +308,9 @@ h1.big-title
 .title-desc
 {
     font-family: 'PT Serif', serif;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 30px;
-    max-width: 460px;
+    max-width: 380px;
     margin: 0 auto;
     color: #fff;
 }
