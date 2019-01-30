@@ -282,7 +282,7 @@ body a:hover
 .top-logo
 {
     width: 140px;
-    padding-top: 120px;
+    padding-top: 110px;
 }
 
 h1.big-title
@@ -291,7 +291,7 @@ h1.big-title
     font-size: 56px;
     font-weight: 700;
     line-height: 100%;
-    padding-top: 60px;
+    padding-top: 70px;
     padding-bottom: 20px;
     color: #fff;
     letter-spacing: -1px;    
@@ -313,6 +313,7 @@ h1.big-title
     max-width: 380px;
     margin: 0 auto;
     color: #fff;
+    padding-bottom: 40px;
 }
 
 .page-template-page-home .intro-page footer
@@ -979,9 +980,9 @@ p.custom-field-class
     margin-bottom: 60px;
 }
 
-.contact-form #sendMail
+.sendMailButton
 {
-    color: white;
+    color: black;
     display: inline-block;
     border: 2px solid #000000;
     text-align: center;
@@ -990,18 +991,21 @@ p.custom-field-class
     margin-top: 30px;
     vertical-align: middle;
     text-decoration: none;
-	background-color: #DC3C92;
+	background-color: #FFC823;
     font-family: 'Roboto', sans-serif;
     width: 100%;
     text-transform: uppercase;
     font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.04cm;
     transition: all .2s linear;
+    max-width: 300px;
 }
 
-.contact-form #sendMail:hover
+.sendMailButton:hover
 {
-    color: black;
-	background: #FFC823;
+    color: white;
+	background: #DC3C92;
 }
 
 /* END CONTACT SECTION */
