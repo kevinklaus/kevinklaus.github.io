@@ -272,7 +272,7 @@ body a:hover
     padding-bottom: 170px;
     min-height: calc(100vh - 170px);
     background-color: #FFC823;
-    background-image:url(demo-images/background_img_01b.jpg); 
+    background-image:url(images/background_img_01b.jpg);
     background-repeat: repeat; 
     background-position: center top; 
     background-size: cover;
@@ -314,6 +314,34 @@ h1.big-title
     margin: 0 auto;
     color: #fff;
     padding-bottom: 40px;
+}
+
+.callToActionButton
+{
+	color: white;
+	display: inline-block;
+	/*border: 2px solid white;*/
+	text-align: center;
+	padding: 12px 25px 12px 25px;
+	cursor: pointer;
+	margin-top: 30px;
+	vertical-align: middle;
+	text-decoration: none;
+	background-color: #DC3C92;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 120%;
+	transition: all .2s linear;
+	max-width: 280px;
+}
+
+.callToActionButton:hover
+{
+	color: black;
+	background: #FFC823;
+	/*border: 2px solid black;*/
+
 }
 
 .page-template-page-home .intro-page footer
@@ -662,7 +690,7 @@ div.pp_default .pp_loaderIcon
 #news
 {
     background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/background_img_04.jpg"); 
+    background-image: url("images/background_img_04.jpg");
     background-repeat: no-repeat; 
     background-position: center center; 
     background-size: cover; 
@@ -773,7 +801,7 @@ div.pp_default .pp_loaderIcon
 #video
 {
     background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/background_img_06.jpg"); 
+    background-image: url("images/background_img_06.jpg");
     background-repeat: repeat-x; 
     background-position: center center; 
     background-size: auto; 
@@ -924,7 +952,7 @@ a.video-popup-holder:hover img.popup-play
 #contact
 {
     background-color: #FFC823;
-    background-image: url("demo-images/background_img_02.jpg");
+    background-image: url("images/background_img_02.jpg");
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
@@ -984,7 +1012,7 @@ p.custom-field-class
 {
     color: black;
     display: inline-block;
-    border: 2px solid #000000;
+    /*border: 2px solid #000000;*/
     text-align: center;
     padding: 12px 0px;
     cursor: pointer;
@@ -1002,11 +1030,13 @@ p.custom-field-class
     max-width: 300px;
 }
 
+
 .sendMailButton:hover
 {
-    color: white;
+	color: white;
 	background: #DC3C92;
 }
+
 
 /* END CONTACT SECTION */
 
