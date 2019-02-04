@@ -332,7 +332,7 @@ h1.big-title
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 120%;
-	transition: all .2s linear;
+	transition: all .4s linear;
 	max-width: 280px;
 }
 
@@ -1026,7 +1026,7 @@ p.custom-field-class
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.04cm;
-    transition: all .2s linear;
+    transition: all .4s linear;
     max-width: 300px;
 }
 
@@ -1645,6 +1645,11 @@ copyright-footer
         width: 100% !important;
     }
 
+    .member-content-holder
+    {
+        padding: 5% 2% 2% 2%;
+    }
+
 }
 
 
@@ -1667,7 +1672,7 @@ copyright-footer
     .member-content-holder
     {
         width: 90%;
-        padding: 10% 5% 0% 2%;
+        padding: 10%;
         float: none;
     }
 
