@@ -1654,8 +1654,8 @@ copyright-footer
 
     .top-logo
     {
-        height: 80px;
-        width: 80px;
+        height: 100px;
+        width: 100px;
         padding-top: 50px;
         padding-bottom: 40px;
     }
@@ -1663,8 +1663,14 @@ copyright-footer
     h1.big-title
     {
         width: 97%;
-		font-size: 35px;
+		font-size: 37px;
+		max-width: 400px;
     }
+
+	.title-desc
+	{
+		padding-top: 20px;
+	}
 
 
     .member-content-holder
@@ -1698,11 +1704,28 @@ copyright-footer
 }
 
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
 
 	h1.big-title
 	{
+		padding-top: 35px;
+		width: 97%;
 		font-size: 30px;
+		max-width: 400px;
+	}
+
+	.title-desc
+	{
+		font-size: 18px;
+		max-width: 280px;
+		padding-top: 20px;
+	}
+
+	.top-logo
+	{
+		padding-top: 70px;
+		height: 80px;
+		width: 80px;
 	}
 
     .section-num 
