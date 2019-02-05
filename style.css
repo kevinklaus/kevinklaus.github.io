@@ -1627,6 +1627,12 @@ copyright-footer
     }
 
 
+	#portfolio .section-title-holder
+	{
+		padding-top: 150px;
+	}
+
+
 }
 
 @media screen and (max-width: 805px) {       
@@ -1656,7 +1662,8 @@ copyright-footer
 
     h1.big-title
     {
-        width: 95%;
+        width: 97%;
+		font-size: 35px;
     }
 
 
@@ -1691,7 +1698,12 @@ copyright-footer
 }
 
 
-@media screen and (max-width: 350px) { 
+@media screen and (max-width: 350px) {
+
+	h1.big-title
+	{
+		font-size: 30px;
+	}
 
     .section-num 
     {
