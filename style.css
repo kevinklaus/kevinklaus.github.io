@@ -1102,16 +1102,7 @@ copyright-footer
 
 /* SINGLE PORTFOLIO PAGE */
 
-#portfolio-1
-{
-    background-color: #FFC823;
-    background-image:url("images/background_img_02.jpg");
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size: auto; 
-}
-
-#portfolio-2
+#portfolio
 {
 
     background-color: #FFC823;
