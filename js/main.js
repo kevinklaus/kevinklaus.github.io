@@ -1,35 +1,6 @@
 jQuery(document).ready(function () {
 
 
-	function includeHTML() {
-		var z, i, elmnt, file, xhttp;
-		/* Loop through a collection of all HTML elements: */
-		z = document.getElementsByTagName("*");
-		for (i = 0; i < z.length; i++) {
-			elmnt = z[i];
-			/*search for elements with a certain atrribute:*/
-			file = elmnt.getAttribute("w3-include-html");
-			if (file) {
-				/* Make an HTTP request using the attribute value as the file name: */
-				xhttp = new XMLHttpRequest();
-				xhttp.onreadystatechange = function() {
-					if (this.readyState == 4) {
-						if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-						if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-						/* Remove the attribute, and call this function once more: */
-						elmnt.removeAttribute("w3-include-html");
-						includeHTML();
-					}
-				}
-				xhttp.open("GET", file, true);
-				xhttp.send();
-				/* Exit the function: */
-				return;
-			}
-		}
-	};
-
-
 	jQuery(".section-title-holder").stick_in_parent({offset_top: 64}).on("sticky_kit:stick", function (e) {
         jQuery('.menu-wrapper, .menu-wrapper .sub-menu').css('backgroundColor', jQuery(this).css("backgroundColor"));
         jQuery('.menu-wrapper a, .mob-menu').css('color', jQuery(this).find('.section-num span').css("color"));
@@ -357,69 +328,3 @@ var hideMobMenuItemClick = function (e) {
 function is_touch_device() {
     return !!('ontouchstart' in window);
 }
-
-function isValidEmailAddress(emailAddress) {
-    var pattern = /^([a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+(\.[a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+)*|"((([ \t]*\r\n)?[ \t]+)?([\x01-\x08\x0b\x0c\x0e-\x1f\x7f\x21\x23-\x5b\x5d-\x7e\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|\\[\x01-\x09\x0b\x0c\x0d-\x7f\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))*(([ \t]*\r\n)?[ \t]+)?")@(([a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.)+([a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.?$/i;
-    return pattern.test(emailAddress);
-}
-
-var SendMail = function () {
-
-    var emailVal = jQuery('#contact-email').val();
-
-    if (isValidEmailAddress(emailVal)) {
-        var params = {
-            'action': 'SendMessage',
-            'name': jQuery('#name').val(),
-            'email': jQuery('#contact-email').val(),
-            'subject': jQuery('#subject').val(),
-            'message': jQuery('#message').val()
-        };
-        jQuery.ajax({
-            type: "POST",
-            url: "php/sendMail.php",
-            data: params,
-            success: function (response) {
-                if (response) {
-                    var responseObj = jQuery.parseJSON(response);
-                    if (responseObj.ResponseData)
-                    {
-                        alert(responseObj.ResponseData);
-                    }
-                }
-            },
-            error: function (xhr, ajaxOptions, thrownError) {
-                //xhr.status : 404, 303, 501...
-                var error = null;
-                switch (xhr.status)
-                {
-                    case "301":
-                        error = "Redirection Error!";
-                        break;
-                    case "307":
-                        error = "Error, temporary server redirection!";
-                        break;
-                    case "400":
-                        error = "Bad request!";
-                        break;
-                    case "404":
-                        error = "Page not found!";
-                        break;
-                    case "500":
-                        error = "Server is currently unavailable!";
-                        break;
-                    default:
-                        error = "Unespected error, please try again later.";
-                }
-                if (error) {
-                    alert(error);
-                }
-            }
-        });
-    } else
-    {
-        alert('Your email is not in valid format');
-    }
-
-
-};
