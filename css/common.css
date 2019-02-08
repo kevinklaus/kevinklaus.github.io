@@ -256,8 +256,8 @@ iframe
 a.button
 {
     display: inline-block;
-    color: #DC3C92;
-    border: 2px solid #DC3C92;
+    color: white;
+    background-color: #DC3C92;
     text-align: center;
     padding-bottom: 15px;
     padding-top: 12px;
@@ -269,7 +269,7 @@ a.button
     text-decoration: none;
     font-size: 20px;
     font-weight: 700;
-    transition: all .2s linear;
+    transition: all .4s linear;
 }
 a.button:active
 {
@@ -278,9 +278,10 @@ a.button:active
 }
 a.button:hover
 {
-    color: white;
-    background-color: #DC3C92;
+    color: black;
+    background-color: #FFC823;
 }
+
 
 h1,h2,h3,h4,h5,h6
 {

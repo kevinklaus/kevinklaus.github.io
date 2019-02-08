@@ -883,7 +883,6 @@ a.video-popup-holder:hover img.popup-play
 .progress_bar 
 {
     margin-bottom: 15px;
-    color: black !important;
 }
 
 .progress_bar_field_holder 
@@ -1694,12 +1693,13 @@ copyright-footer
 
     .progress_bar_title
     {
-        font-size: 20px;
+        font-size: 30px;
+        top: 15px;
     }
 
     .progress_bar_percent_text
     {
-        font-size: 20px;
+        font-size: 30px;
     }
 }
 
@@ -1752,11 +1752,11 @@ copyright-footer
 
     .progress_bar_title
     {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .progress_bar_percent_text
     {
-        font-size: 15px;
+        font-size: 25px;
     }
 }
