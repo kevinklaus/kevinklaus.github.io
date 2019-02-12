@@ -258,6 +258,8 @@ a.button
     display: inline-block;
     color: white;
     background-color: #DC3C92;
+    border-radius: 7px;
+    border-bottom: solid 4px #7d2359;
     text-align: center;
     padding-bottom: 15px;
     padding-top: 12px;
@@ -274,12 +276,18 @@ a.button
 a.button:active
 {
     position: relative;
-    top: 1px;	
+    top: 1px;
+    border-bottom: none;
 }
 a.button:hover
 {
     color: black;
     background-color: #FFC823;
+    border-bottom: none;
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+
 }
 
 

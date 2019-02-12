@@ -321,8 +321,10 @@ h1.big-title
 	color: white;
 	display: inline-block;
 	/*border: 2px solid white;*/
-	text-align: center;
-	padding: 12px 25px 12px 25px;
+    border-bottom: solid 4px #85255f;
+    border-radius: 4px;
+    text-align: center;
+	padding: 15px 30px 15px 30px;
 	cursor: pointer;
 	margin-top: 30px;
 	vertical-align: middle;
@@ -340,7 +342,11 @@ h1.big-title
 {
 	color: black;
 	background: #FFC823;
-	/*border: 2px solid black;*/
+    border-bottom: none;
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    /*border: 2px solid black;*/
 
 }
 
@@ -871,8 +877,8 @@ a.video-popup-holder:hover img.popup-play
 
 #skills .section-title-holder
 {
-    background-color: #000000;
-    color: #DC3C92;
+    background-color: #DC3C92;
+    color: #FFC823;
 }
 
 #skills .section-title-holder span
@@ -1012,6 +1018,8 @@ p.custom-field-class
     color: black;
     display: inline-block;
     /*border: 2px solid #000000;*/
+    border-bottom: solid 4px #a98517;
+    border-radius: 4px;
     text-align: center;
     padding: 12px 0px;
     cursor: pointer;
@@ -1034,6 +1042,10 @@ p.custom-field-class
 {
 	color: white;
 	background: #DC3C92;
+    border-bottom: none;
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
 }
 
 
