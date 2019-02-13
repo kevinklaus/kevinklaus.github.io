@@ -1572,11 +1572,11 @@ copyright-footer
         max-height: 0px;
         overflow: hidden;
 
-        transition: max-height .25s ease-in-out;
+        transition: max-height .7s ease-in-out;
     }
 
     .toggle:checked + .lbl-toggle + .collapsible-content {
-        max-height: 500px;
+        max-height: 700px;
     }
 
     .toggle:checked + .lbl-toggle::before {
