@@ -242,6 +242,16 @@ body a:hover
     padding-bottom: 0;
 }
 
+input[type='checkbox'] {
+    display: none;
+}
+
+.lbl-toggle
+{
+    display: none;
+}
+
+
 /* END GENERAL SECTION */
 
 
@@ -1510,14 +1520,69 @@ copyright-footer
     }    
 }
 
-@media screen and (min-width: 925px) {   
+@media screen and (min-width: 925px) {
     .main-menu
     {
         display: block !important;
     }
 }
 
-@media screen and (max-width: 925px) {  
+@media screen and (max-width: 925px) {
+
+    .lbl-toggle {
+        display: inline-block;
+        color: #DC3C92;
+        text-align: center;
+        border: 2px #DC3C92;
+        border-radius: 7px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        padding-left: 20px;
+        padding-right: 25px;
+        cursor: pointer;
+        vertical-align: middle;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 700;
+        transition:  .4s linear;
+    }
+
+    .lbl-toggle:hover {
+        color: black;
+    }
+
+    .lbl-toggle::before {
+        content: ' ';
+        display: inline-block;
+
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-left: 5px solid currentColor;
+
+        vertical-align: middle;
+        margin-right: .7rem;
+        transform: translateY(-2px);
+
+        transition: transform .2s ease-out;
+    }
+
+    .collapsible-content {
+        padding-top: 10px;
+        max-height: 0px;
+        overflow: hidden;
+
+        transition: max-height .25s ease-in-out;
+    }
+
+    .toggle:checked + .lbl-toggle + .collapsible-content {
+        max-height: 500px;
+    }
+
+    .toggle:checked + .lbl-toggle::before {
+        transform: rotate(90deg) translateX(-3px);
+    }
+
 
     .intro-page
     {
