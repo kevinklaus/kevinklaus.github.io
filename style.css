@@ -1,6 +1,6 @@
 body
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
@@ -209,9 +209,9 @@ body a:hover
 
 .section-title-holder h2
 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Arial Black', sans-serif;
     font-weight: 700;
-    font-size: 109px;
+    font-size: 95px;
     width: 245px;
     word-break: break-all;
     line-height: 83px;
@@ -219,7 +219,6 @@ body a:hover
     color: white;
     margin-left: 115px;
     text-transform: uppercase;
-    letter-spacing: -3px;
     padding: 0;
 }
 
@@ -255,7 +254,6 @@ body a:hover
 
 .section-content-holder .content-title
 {
-    /*font-family: 'Montserrat';*/
     font-weight: 700;
     text-align: center;
     font-size: 180px;
@@ -326,15 +324,15 @@ input[type='checkbox'] {
 
 h1.big-title
 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Arial Black', sans-serif;
     font-size: 56px;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 100%;
-    padding-top: 70px;
-    padding-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 50px;
     color: #fff;
     letter-spacing: -1px;    
-    width: 65%;
+    max-width: 624px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -346,13 +344,14 @@ h1.big-title
 
 .title-desc
 {
-    font-family: 'PT Serif', serif;
+    font-family: 'Helvetica Neue', serif;
     font-size: 25px;
     line-height: 30px;
     max-width: 380px;
     margin: 0 auto;
     color: #fff;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+    letter-spacing: -0px;
 }
 
 .callToActionButton
@@ -369,7 +368,7 @@ h1.big-title
 	vertical-align: middle;
 	text-decoration: none;
 	background-color: #DC3C92;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Helvetica Neue', sans-serif;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 120%;
@@ -441,7 +440,7 @@ h1.big-title
 
 .service-title 
 {
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Arial Black', sans-serif;
     font-size: 24px;
     padding-bottom: 10px;
 }
@@ -487,7 +486,7 @@ h1.big-title
 
 .portfolio-holder .portfolio-load-more-holder
 {
-    font-family: 'Montserrat', sans-serif;    
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight: 700;
     font-size: 20px;
     width: 430px;
@@ -604,7 +603,7 @@ h1.big-title
 
 .portfolio-text
 {
-    font-family: 'Montserrat', sans-serif;    
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 18px;
@@ -614,7 +613,7 @@ h1.big-title
 
 .portfolio-sec-text
 {
-    font-family: 'Montserrat', sans-serif;    
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 100%;
@@ -806,7 +805,7 @@ div.pp_default .pp_loaderIcon
 
 .latest-post-bottom-text a 
 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight: 700;    
     font-size: 16px;
     line-height: 100%;    
@@ -1065,7 +1064,7 @@ p.custom-field-class
     vertical-align: middle;
     text-decoration: none;
 	background-color: #FFC823;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     width: 100%;
     text-transform: uppercase;
     font-size: 16px;
@@ -1650,6 +1649,7 @@ copyright-footer
     h1.big-title
     {
         font-size: 40px;
+        max-width: 420px;
         padding-top: 0;
     }
 
@@ -1824,13 +1824,13 @@ copyright-footer
 		padding-top: 35px;
 		width: 97%;
 		font-size: 30px;
-		max-width: 400px;
+        max-width: 320px;
 	}
 
 	.title-desc
 	{
-		font-size: 18px;
-		max-width: 280px;
+		font-size: 16px;
+		max-width: 240px;
 		padding-top: 20px;
 	}
 
