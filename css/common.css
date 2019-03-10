@@ -215,7 +215,7 @@ a.wp-ver
 }
 blockquote
 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: 20px;
@@ -257,7 +257,7 @@ a.button
 {
     display: inline-block;
     color: white;
-    background-color: #DC3C92;
+    background-color: var(--primary-pink);
     border-radius: 7px;
     border-bottom: solid 4px #7d2359;
     text-align: center;
@@ -282,12 +282,11 @@ a.button:active
 a.button:hover
 {
     color: black;
-    background-color: #FFC823;
+    background-color: var(--primary-yellow);
     border-bottom: none;
     -ms-transform: translateY(4px);
     -webkit-transform: translateY(4px);
     transform: translateY(4px);
-
 }
 
 
