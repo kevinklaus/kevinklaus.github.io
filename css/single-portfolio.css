@@ -85,12 +85,12 @@
 	color: black;
 	padding: 2%;
 	padding-bottom: 0;
-	text-align: left;
+	text-align: center;
 	font-size: 20px;
 }
 
 .portfolio-cta-text {
-	color: white;
+	color: black;
 }
 
 .portfolio-cta-link {
