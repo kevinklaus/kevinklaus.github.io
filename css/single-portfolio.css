@@ -2,12 +2,7 @@
 
 .portfolio
 {
-
 	background-color: var(--primary-yellow);
-	background-image: url(../images/background_img_01b.jpg);
-	background-repeat: no-repeat;
-	background-position: left top;
-	background-size: 100% auto;
 }
 
 .single-portfolio .menu-wrapper
