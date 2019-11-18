@@ -1,2 +1,4 @@
 # kevinklaus.github.io
-Personal Website
+My Personal Website and Portfolio
+
+Contact: kevintheklaus@gmail.com
