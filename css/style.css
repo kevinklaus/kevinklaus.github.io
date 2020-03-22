@@ -68,9 +68,24 @@ body a:hover
     line-height: 0;
 }
 
-.emphasize
+.pink-text
 {
     color: var(--primary-pink);
+}
+
+.yellow-text
+{
+    color: var(--primary-yellow);
+}
+
+.strong
+{
+    font-weight: bold;
+}
+
+.em
+{
+    font-style: italic;
 }
 
 
@@ -196,6 +211,7 @@ body a:hover
 }
 
 /*END FLIP LOGO*/
+
 
 
 
@@ -428,11 +444,6 @@ h1.big-title
 #portfolio
 {
     background-color: var(--primary-yellow);
-    /*background-image: url("demo-images/background_img_02.jpg");
-    background-repeat: no-repeat; 
-    background-position: center top; 
-    background-size: auto;
-    z-index: 8;*/
 }
 
 #portfolio .section-title-holder
@@ -624,14 +635,21 @@ div.pp_default .pp_loaderIcon
 
 /* ABOUT SECTION */
 
+.list li {
+    padding: 0 0 0 1px;
+
+}
+
+.separate
+{
+    border-top: 1px solid var(--primary-pink);
+    padding-top: 7px;
+    margin-top: 6px;
+}
+
 #about
 {
     background-color: var(--primary-pink);
-   /* background-image: url("demo-images/background_img_03.jpg");
-    background-repeat: no-repeat; 
-    background-position: center top; 
-    background-size: cover; 
-    z-index: 7;*/
 }
 
 #about .section-title-holder
@@ -703,176 +721,6 @@ div.pp_default .pp_loaderIcon
 /* END ABOUT SECTION */
 
 
-/* NEWS SECTION
-
-#news
-{
-    background-color: rgb(34, 28, 90); 
-    background-image: url("images/background_img_04.jpg");
-    background-repeat: no-repeat; 
-    background-position: center center; 
-    background-size: cover; 
-    z-index: 6;
-}
-
-.blog-item-holder
-{    
-    padding: 35px 0;
-    border-bottom: 2px solid #f4f4f4;
-}
-
-.blog-item-holder:last-of-type 
-{
-    border: none;
-}
-
-.blog-item-holder .num 
-{
-    display: inline-block;
-    width: 110px;
-    font-size: 48px;
-    font-weight: 900;
-    color: #32db89;
-}
-
-.blog-item-holder .info 
-{
-    display: inline-block;
-    width: 235px;
-}
-
-.blog-item-holder .info .cat-links a 
-{
-    color: #ee87a4;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 700;
-}
-
-.blog-item-holder .entry-title 
-{
-    display: inline-block;
-    width: 325px;
-    padding: 0;
-    vertical-align: top;
-    line-height: 0;
-}
-
-.blog-holder .entry-title a
-{    
-    -webkit-transition: color 0.5s ease;
-    -moz-transition: color 0.5s ease;
-    -ms-transition: color 0.5s ease;
-    -o-transition: color 0.5s ease;
-    transition: color 0.5s ease;
-    font-size: 18px;
-    line-height: 100%;
-    font-weight: 700;
-    display: block;
-    line-height: 20px;
-}
-
-.latest-post-bottom-text
-{
-    text-align: center;
-    margin-top: 25px;
-}
-
-.latest-post-bottom-text a 
-{
-    font-family: 'Helvetica Neue', sans-serif;
-    font-weight: 700;    
-    font-size: 16px;
-    line-height: 100%;    
-    color: #32db89;
-    letter-spacing: 5px;
-    border-bottom: 2px solid;
-    padding-left: 5px;
-    padding-bottom: 5px; 
-}
-
-.testimonial-slider-holder
-{
-    max-width: 500px;
-    padding-left: 50px;
-}
-
-.testimonial-text
-{
-    font-size: 22px;
-    line-height: 40px;    
-}
-
-.testimonial-author
-{
-    padding-top: 90px;
-    font-size: 16px;
-    letter-spacing: 3px;    
-}
-
-END NEWS SECTION */
-
-
-
-/* VIDEO SECTION
-
-#video
-{
-    background-color: rgb(34, 28, 90); 
-    background-image: url("images/background_img_06.jpg");
-    background-repeat: repeat-x; 
-    background-position: center center; 
-    background-size: auto; 
-    z-index: 5;
-}
-
-#video .section-title-holder
-{
-    background-color: rgb(255, 186, 66);
-    color: var(--primary-pink);
-}
-
-#video .section-title-holder span
-{
-    color: #e3a436;
-}
-
-#video .section-content-holder
-{
-    padding-bottom: 0;
-}
-
-a.video-popup-holder 
-{
-    position: relative;
-    display: block;
-}
-
-a.video-popup-holder .thumb
-{
-    width: 100%;
-}
-
-img.popup-play 
-{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    top: calc(50% - 60px);
-    left: calc(50% - 60px);
-    opacity: 0.7;
-    transition: opacity .2s linear;
-}
-
-a.video-popup-holder:hover img.popup-play
-{
-    opacity: 1;
-}
- END VIDEO SECTION */
-
-
-
-
 
 /* SKILLS SECTION */
 
@@ -880,11 +728,6 @@ a.video-popup-holder:hover img.popup-play
 #skills
 {
     background-color:  var(--primary-yellow);
-    /*background-image: url("demo-images/item_background_01.jpg");
-    background-repeat: no-repeat; 
-    background-position: left top;
-    background-size: 100%;
-    z-index: 4; */
 }
 
 #skills .section-title-holder
@@ -927,12 +770,12 @@ a.video-popup-holder:hover img.popup-play
 .progress_bar_title
 {
     position: absolute;
-    top: 8px;
+    top: 17px;
     z-index: 2;
     left: -11px;
     font-weight: bold;
     color: white;
-    font-size: 45px;
+    font-size: 30px;
     line-height: 100%;
     transition: color .2s linear, left .2s linear;
 }
@@ -1595,8 +1438,7 @@ copyright-footer
 
     .progress_bar_title
     {
-        font-size: 30px;
-        top: 15px;
+        font-size: 25px;
     }
 
     .progress_bar_percent_text
@@ -1654,7 +1496,7 @@ copyright-footer
 
     .progress_bar_title
     {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .progress_bar_percent_text
