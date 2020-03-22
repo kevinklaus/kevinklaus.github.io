@@ -640,10 +640,10 @@ div.pp_default .pp_loaderIcon
 
 }
 
-.list
+.separate
 {
-    border-top: 1px solid var(--primary-yellow);
-    padding: 10px 0 0 0;
+    border-top: 1px solid var(--primary-pink);
+    padding-top: 10px;
     margin-top: 10px;
 }
 
@@ -770,12 +770,12 @@ div.pp_default .pp_loaderIcon
 .progress_bar_title
 {
     position: absolute;
-    top: 8px;
+    top: 17px;
     z-index: 2;
     left: -11px;
     font-weight: bold;
     color: white;
-    font-size: 45px;
+    font-size: 30px;
     line-height: 100%;
     transition: color .2s linear, left .2s linear;
 }
@@ -1438,8 +1438,7 @@ copyright-footer
 
     .progress_bar_title
     {
-        font-size: 30px;
-        top: 15px;
+        font-size: 25px;
     }
 
     .progress_bar_percent_text
@@ -1497,7 +1496,7 @@ copyright-footer
 
     .progress_bar_title
     {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .progress_bar_percent_text
