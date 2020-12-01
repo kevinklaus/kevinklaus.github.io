@@ -5,19 +5,21 @@
     --accent-pink: #85255f;
 }
 
+
+
 body
 {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
-    color: #000000;
+    color: #333;
 }
 
 body a
 {
     text-decoration: none;
-    color: #000000;
+    color: #333;
     transition: color .2s linear;
 }
 
@@ -73,8 +75,7 @@ body a:hover
     color: var(--primary-pink);
 }
 
-.yellow-text
-{
+.yellow-text {
     color: var(--primary-yellow);
 }
 
@@ -96,7 +97,7 @@ body a:hover
 {    
     transition: background-color .2s linear;
     z-index: 99 !important;
-    background-color: var(--primary-yellow);
+    background-color: #333;
     width: 100% !important;
     top: 0;
     position: fixed;
@@ -148,7 +149,7 @@ body a:hover
 
 .sm-clean li.active.activeBlack a
 {
-    color: #000000 !important;
+    color: #333 !important;
 }
 
 .mob-menu
@@ -276,15 +277,14 @@ body a:hover
     padding-bottom: 50px;
 }
 
-.section-content-holder .content-title
-{
-    font-weight: 700;
-    text-align: center;
-    font-size: 180px;
-    line-height: 100%;
-    text-transform: uppercase;
-    margin-top: -60px;
-    color: var(--primary-yellow);
+.section-content-holder .content-title {
+	font-weight: 900;
+	text-align: right;
+	font-size: 84px;
+	line-height: 100%;
+	text-transform: uppercase;
+	margin-top: -10px;
+	color: var(--primary-yellow);
 }
 
 .extra-content-left
@@ -331,50 +331,53 @@ input[type='checkbox'] {
 .intro-page 
 {
     padding-bottom: 170px;
-    min-height: calc(100vh - 170px);
+    min-height: calc(100vh - 300px);
     background-color: var(--primary-yellow);
     background-image:url(../images/background_img_01b.jpg);
-    background-position: center top;
+    background-position: center center;
     background-size: cover;
     z-index: 10;
 }
 
 .top-logo
 {
-    width: 100px;
-    padding-top: 50px;
+    width: 175px;
+    margin-top: 50px;
+    border-radius: 50%;
 }
 
-h1.big-title
+h1.big-title,
+h2.big-title
 {
-    font-family: 'Arial Black', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     font-size: 56px;
     font-weight: 900;
     line-height: 100%;
-    padding-top: 0px;
-    padding-bottom: 30px;
+    padding-top: 70px;
+    padding-bottom: 25px;
     color: #fff;
-    letter-spacing: -1px;    
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.big-title span 
+h2.big-title
 {
-    display: block;
+    padding-top: 0px;
+    font-size: 40px;
 }
 
 .title-desc
 {
-    font-family: 'Helvetica Neue', serif;
+    font-family: 'Helvetica Neue', sans-serif;
     font-size: 20px;
     line-height: 30px;
-    max-width: 330px;
+    max-width: 425px;
     margin: 0 auto;
     color: #fff;
     padding-bottom: 20px;
-    letter-spacing: -0px;
+    padding-top: 20px;
+    font-weight: 300;
 }
 
 
@@ -443,13 +446,12 @@ h1.big-title
 
 #portfolio
 {
-    background-color: var(--primary-yellow);
+    background-color: #333;
 }
 
 #portfolio .section-title-holder
 {
-    background-color: #000000;
-    color: var(--primary-yellow);
+    background-color: var(--primary-pink);
 }
 
 #portfolio .section-title-holder span
@@ -475,7 +477,7 @@ h1.big-title
     font-weight: 700;
     font-size: 20px;
     width: 430px;
-    background-color: #000000;
+    background-color: #333;
     text-align: center;
 }
 
@@ -647,9 +649,8 @@ div.pp_default .pp_loaderIcon
     margin-top: 6px;
 }
 
-#about
-{
-    background-color: var(--primary-pink);
+#about {
+	background-color: #333;
 }
 
 #about .section-title-holder
@@ -659,7 +660,7 @@ div.pp_default .pp_loaderIcon
 
 #about .section-title-holder span
 {
-    color: #000000;
+    color: #333;
 }
 
 #about .content-title
@@ -826,7 +827,7 @@ div.pp_default .pp_loaderIcon
 
 #contact .section-title-holder span
 {
-    color: #000000;
+    color: #333;
 }
 
 #contact .section-content-holder
@@ -874,7 +875,7 @@ footer
     font-size: 16px;
     line-height: 36px;
     clear: both;
-    color: #000000;
+    color: #333;
     text-align: center;    
     padding: 100px 0;
 }
@@ -902,7 +903,7 @@ copyright-footer
 
 .footer a
 {
-    color: #000000;
+    color: #333;
 }
 
 .social-footer a 
@@ -1279,11 +1280,23 @@ copyright-footer
         z-index: 0 !important;
     }
 
-    h1.big-title
+    h1.big-title,
+    h2.big-title
     {
         font-size: 40px;
         max-width: 500px;
         padding-top: 0;
+    }
+
+    h2.big-title
+    {
+        font-size: 30px;
+    }
+
+    h1.big-title
+    {
+        padding-bottom: 0;
+        display: inline;
     }
 
     h1.big-title span 
@@ -1295,7 +1308,6 @@ copyright-footer
     {    
         font-size: 19px;
         line-height: 23px;
-        max-width: 290px;
     }
 
     .mob-menu
@@ -1363,8 +1375,7 @@ copyright-footer
     {
         height: 120px;
         width: 120px;
-        padding-top: 30px;
-        padding-bottom: 20px;
+        margin-bottom: 20px;
     }
 
 
@@ -1401,15 +1412,12 @@ copyright-footer
     {
         height: 100px;
         width: 100px;
-        padding-top: 50px;
-        padding-bottom: 40px;
+        margin-bottom: 40px;
     }
 
     h1.big-title
     {
-        width: 97%;
 		font-size: 37px;
-		max-width: 450px;
     }
 
 	.title-desc
@@ -1460,26 +1468,28 @@ copyright-footer
 
 @media screen and (max-width: 450px) {
 
-	h1.big-title
+	h1.big-title,
+    h2.big-title
 	{
-		padding-top: 35px;
-		width: 97%;
-		font-size: 30px;
-        max-width: 370px;
-	}
+        font-size: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    h2.big-title {
+        font-size: 25px;
+        padding-top: 8px;
+    }
 
 	.title-desc
 	{
 		font-size: 16px;
-		max-width: 240px;
-		padding-top: 20px;
 	}
 
 	.top-logo
 	{
-		padding-top: 70px;
-		height: 80px;
-		width: 80px;
+		height: 90px;
+		width: 90px;
 	}
 
     .section-num 

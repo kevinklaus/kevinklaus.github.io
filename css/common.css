@@ -253,25 +253,24 @@ iframe
 {
     width: 100%;
 }
-a.button
-{
-    display: inline-block;
-    color: white;
-    background-color: var(--primary-pink);
-    border-radius: 7px;
-    border-bottom: solid 4px #7d2359;
-    text-align: center;
-    padding-bottom: 15px;
-    padding-top: 12px;
-    padding-left: 50px;
-    padding-right: 50px;
-    cursor: pointer;
-    margin-bottom: 25px;
-    vertical-align: middle;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 700;
-    transition: all .4s linear;
+a.button {
+	display: inline-block;
+	color: #333;
+	background-color: var(--primary-yellow);
+	border-radius: 7px;
+	border-bottom: solid 4px var(--accent-yellow);
+	text-align: center;
+	padding-bottom: 13px;
+	padding-top: 15px;
+	padding-left: 40px;
+	padding-right: 40px;
+	cursor: pointer;
+	margin-bottom: 25px;
+	vertical-align: middle;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 700;
+	transition: all .2s linear;
 }
 a.button:active
 {
