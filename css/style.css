@@ -92,6 +92,9 @@ body a:hover
 
 /* TOP MENU */
 
+#undefined-sticky-wrapper {
+	height: 56px !important;
+}
 
 .menu-wrapper
 {    
@@ -227,22 +230,22 @@ body a:hover
 .section-title-holder
 {
     background-color: var(--primary-yellow);
-    width: 370px;
-    height: 370px;    
+    width: 300px;
+    height: 300px;
     z-index: 2;
 }
 
 .section-title-holder h2
 {
-    font-family: 'Arial Black', sans-serif;
-    font-weight: 700;
-    font-size: 95px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: 38px;
+    margin-left: 100px;
     width: 245px;
     word-break: break-all;
     line-height: 83px;
     margin-top: 10px;
     color: white;
-    margin-left: 115px;
     text-transform: uppercase;
     padding: 0;
 }
@@ -728,13 +731,12 @@ div.pp_default .pp_loaderIcon
 
 #skills
 {
-    background-color:  var(--primary-yellow);
+    background-color:  #333;
 }
 
 #skills .section-title-holder
 {
     background-color: var(--primary-pink);
-    color: var(--primary-yellow);
 }
 
 #skills .section-title-holder span
@@ -941,13 +943,13 @@ copyright-footer
 
     .section-title-holder 
     {    
-        width: 250px;
-        height: 250px;
+        width: 220px;
+        height: 220px;
     }
 
     .section-title-holder h2
     {
-        font-size: 70px;
+        font-size: 30px;
         width: 177px;        
         line-height: 66px;
         margin-top: 25px;        
@@ -1104,7 +1106,8 @@ copyright-footer
         vertical-align: top;
         margin-top: 10px;
         font-size: 50px;
-        line-height: 100%;
+        line-height: 130%;
+        margin-left: 20px;
     }
 
     .section-content-holder 
