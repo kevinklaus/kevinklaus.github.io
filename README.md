@@ -1,4 +1,10 @@
 # kevinklaus.github.io
-My Personal Website and Portfolio
 
-Contact: kevintheklaus@gmail.com
+Personal Website and Portfolio
+
+Kevin Klaus
+
+Product Designer and UI Engineer
+
+
+*Contact:* kevintheklaus@gmail.com
