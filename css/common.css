@@ -255,22 +255,23 @@ iframe
 }
 a.button {
 	display: inline-block;
-	color: #333;
+	color: #222;
 	background-color: var(--primary-yellow);
 	border-radius: 7px;
 	border-bottom: solid 4px var(--accent-yellow);
 	text-align: center;
-	padding-bottom: 13px;
-	padding-top: 15px;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-bottom: 12px;
+	padding-top: 13px;
+	padding-left: 25px;
+	padding-right: 25px;
 	cursor: pointer;
 	margin-bottom: 25px;
 	vertical-align: middle;
 	text-decoration: none;
 	font-size: 20px;
-	font-weight: 700;
-	transition: all .2s linear;
+	font-weight: 500;
+	transition: all .3s linear;
+	letter-spacing: 0.4px;
 }
 a.button:active
 {
@@ -280,12 +281,9 @@ a.button:active
 }
 a.button:hover
 {
-    color: black;
-    background-color: var(--primary-yellow);
-    border-bottom: none;
-    -ms-transform: translateY(4px);
-    -webkit-transform: translateY(4px);
-    transform: translateY(4px);
+    background-color: var(--primary-pink);
+    border-bottom-color: var(--accent-pink);
+    color: #fff;
 }
 
 
