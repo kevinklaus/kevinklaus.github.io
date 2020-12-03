@@ -30,16 +30,12 @@ jQuery(document).ready(function () {
             }
         }
         );
-        //Fix for portfolio item text
-        jQuery('.portfolio-text-holder').each(function () {
-            jQuery(this).find('.portfolio-text-wrapper').css('margin-top', (jQuery(this).height() - jQuery(this).find('.portfolio-text-wrapper').height()) / 2 - 70);
-        });
 
         //Fix for portfolio hover text fade in/out
         jQuery('.grid-item a').hover(function () {
-            jQuery(this).find('.portfolio-text-holder').fadeIn('fast');
+            jQuery(this).find('.portfolio-text-holder').fadeIn('normal');
         }, function () {
-            jQuery(this).find('.portfolio-text-holder').fadeOut('fast');
+            jQuery(this).find('.portfolio-text-holder').fadeOut('normal');
         });
     });
 
