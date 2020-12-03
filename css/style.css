@@ -335,7 +335,7 @@ input[type='checkbox'] {
 .intro-page 
 {
     padding-bottom: 170px;
-    min-height: calc(100vh - 300px);
+    min-height: 75vh;
     background-color: var(--primary-yellow);
     background-image:url(../images/background_img_01b.jpg);
     background-position: center center;
@@ -1103,11 +1103,6 @@ copyright-footer
         right: 0;
     }
 
-    .section
-    {
-        padding-bottom: 150px;
-    }  
-
     .section-content-holder.right 
     {
         margin-left: 0;
@@ -1254,7 +1249,7 @@ copyright-footer
 @media screen and (max-width: 925px) {
 
     .flip-container, .front, .back {
-        height: 200px;
+        height: 230px;
     }
 
     .lbl-toggle {
@@ -1417,16 +1412,24 @@ copyright-footer
 
     .top-logo
     {
-        height: 120px;
-        width: 120px;
-        margin-bottom: 20px;
+        height: 140px;
+        width: 140px;
+        margin-bottom: 40px;
     }
 
 
-	#portfolio .section-title-holder
+	.section-title-holder
 	{
-		padding-top: 150px;
-	}
+		padding-top: 75px;
+    }
+    
+    .section {
+        padding-top: 0px !important;
+    }
+
+    #about {
+        padding-bottom: 0px;
+    }
 
 
 }
@@ -1458,9 +1461,8 @@ copyright-footer
 
     .top-logo
     {
-        height: 100px;
-        width: 100px;
-        margin-bottom: 40px;
+        height: 120px;
+        width: 120px;
     }
 
     h1.big-title
@@ -1540,8 +1542,8 @@ copyright-footer
 
 	.top-logo
 	{
-		height: 90px;
-		width: 90px;
+		height: 110px;
+		width: 110px;
 	}
 
     .section-num 
