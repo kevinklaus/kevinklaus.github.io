@@ -670,6 +670,11 @@ div.pp_default .pp_loaderIcon
 	padding-bottom: 30px;
 }
 
+.cv-date {
+    font-weight: 300;
+    color: #4d4d4d;
+}
+
 /* END CV SECTION */
 
 
