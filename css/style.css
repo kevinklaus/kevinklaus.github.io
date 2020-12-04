@@ -235,6 +235,7 @@ body a:hover
     width: 300px;
     height: 300px;
     z-index: 2;
+    box-shadow: 0 -2px 15px -1px #111;
 }
 
 .section-title-holder h2
@@ -251,11 +252,11 @@ body a:hover
     padding: 0;
 }
 
-.section-content-holder
-{   
-    background: #fff;
-    width: 800px;
-    padding: 60px 0;
+.section-content-holder {
+	background: #fff;
+	width: 800px;
+	padding: 60px 0;
+	box-shadow: 0 -2px 15px -1px #111;
 }
 
 .section-content-holder .content-wrapper
@@ -343,11 +344,11 @@ input[type='checkbox'] {
     z-index: 10;
 }
 
-.top-logo
-{
-    width: 175px;
-    margin-top: 50px;
-    border-radius: 50%;
+.top-logo {
+	width: 175px;
+	margin-top: 50px;
+	border-radius: 50%;
+	box-shadow: 0 -2px 14px 0px #222;
 }
 
 h1.big-title,
@@ -697,7 +698,6 @@ div.pp_default .pp_loaderIcon
 #about {
 	background-color: #333;
     padding-top: 200px;
-    padding-bottom: 100px;
 }
 
 #about .section-title-holder
@@ -856,14 +856,15 @@ div.pp_default .pp_loaderIcon
 
 /* CONTACT SECTION */
 
-#contact
-{
-    background-color: var(--primary-yellow);
-    background-image: url("../images/background_img_01b.jpg");
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: cover;
-    z-index: 3;
+#contact {
+	background-color: var(--primary-yellow);
+	background-image: url("../images/background_img_01b.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	z-index: 3;
+	padding-top: 100px;
+    padding-bottom: 200px;
 }
 
 #contact .section-title-holder
