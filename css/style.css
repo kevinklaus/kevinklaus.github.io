@@ -877,9 +877,9 @@ div.pp_default .pp_loaderIcon
     color: #333;
 }
 
-#contact .section-content-holder
-{
-    padding-bottom: 0;
+#contact .section-content-holder {
+	padding-bottom: 0;
+	margin-bottom: 50px;
 }
 
 .map 
@@ -909,22 +909,16 @@ div.pp_default .pp_loaderIcon
 
 footer
 {
-    background-color: var(--primary-yellow);
+    background-color: #333;
 }
 
-#footer-logo
-{
-    height: 35px;
-}
-
-.footer
-{
-    font-size: 16px;
-    line-height: 36px;
-    clear: both;
-    color: #333;
-    text-align: center;    
-    padding: 100px 0;
+.footer {
+	font-size: 16px;
+	line-height: 36px;
+	clear: both;
+	color: #333;
+	text-align: center;
+	padding: 50px 0;
 }
 
 .footer a:hover
@@ -948,21 +942,37 @@ copyright-footer
     margin-left: 370px;
 }
 
-.footer a
-{
-    color: #333;
+.social-footer {
+	margin: 50px 0;
 }
 
-.social-footer a 
+.social-footer a {
+	margin: 0 9px;
+	font-size: 35px;
+	color: var(--primary-yellow);
+}
+
+.copyright-footer {
+	font-weight: 300;
+	font-size: 14px;
+	color: #555;
+}
+
+.copyright-footer a {
+	color: #555;
+}
+
+footer .personal-footer {
+	color: #fff;
+	font-weight: 300;
+}
+
+#footer-logo
 {
-    margin: 0 10px;
-    font-size: 20px;
-    color: var(--primary-pink);
+    height: 40px;
 }
 
 /* END FOOTER */
-
-
 
 /* RESPONSIVE PART */
 
