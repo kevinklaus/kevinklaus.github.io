@@ -344,11 +344,11 @@ input[type='checkbox'] {
     z-index: 10;
 }
 
-.top-logo
-{
-    width: 175px;
-    margin-top: 50px;
-    border-radius: 50%;
+.top-logo {
+	width: 175px;
+	margin-top: 50px;
+	border-radius: 50%;
+	box-shadow: 0 -2px 14px 0px #222;
 }
 
 h1.big-title,
