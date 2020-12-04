@@ -1534,6 +1534,11 @@ footer .personal-footer {
 
 @media screen and (max-width: 450px) {
 
+    .social-footer a {
+        margin: 0 6px;
+        font-size: 30px;
+    }
+
     #cv .content-title {
         font-size: 50px;
     }
