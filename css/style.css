@@ -243,13 +243,18 @@ body a:hover
     font-weight: 900;
     font-size: 38px;
     margin-left: 100px;
-    width: 270px;
+    width: 240px;
     word-break: break-word;
     line-height: 83px;
     margin-top: 10px;
     color: white;
     text-transform: uppercase;
     padding: 0;
+}
+
+#cv .section-title-holder h2
+{
+    width: 275px;
 }
 
 .section-content-holder {
@@ -908,9 +913,9 @@ div.pp_default .pp_loaderIcon
 
 /* FOOTER */
 
-footer
-{
-    background-color: #333;
+footer {
+	background-color: #333;
+	box-shadow: 0 -2px 15px -1px #111;
 }
 
 .footer {
@@ -944,11 +949,11 @@ copyright-footer
 }
 
 .social-footer {
-	margin: 50px 0;
+	margin: 20px 0 60px;
 }
 
 .social-footer a {
-	margin: 0 9px;
+	margin: 0 15px;
 	font-size: 35px;
 	color: var(--primary-yellow);
 }
@@ -968,9 +973,9 @@ footer .personal-footer {
 	font-weight: 300;
 }
 
-#footer-logo
-{
-    height: 40px;
+#footer-logo {
+	height: 80px;
+	margin: 15px;
 }
 
 /* END FOOTER */
@@ -1006,10 +1011,15 @@ footer .personal-footer {
     .section-title-holder h2
     {
         font-size: 30px;
-        width: 240px;        
+        width: 180px;        
         line-height: 66px;
         margin-top: 25px;        
         margin-left: 75px; 
+    }
+
+    #cv .section-title-holder h2
+    {
+        width: 240px;        
     }
 
     .section-content-holder.right 
@@ -1466,6 +1476,15 @@ footer .personal-footer {
 
 
 @media screen and (max-width: 650px) {
+
+    .social-footer a {
+        margin: 0 12px;
+        font-size: 28px;
+    }
+
+    .social-footer {
+        margin-top: 0;
+    }
 
     #cv .content-title {
         font-size: 60px;
