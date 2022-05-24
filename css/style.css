@@ -356,16 +356,19 @@ input[type='checkbox'] {
 	box-shadow: 0 -2px 14px 0px #222;
 }
 
-h1.big-title,
-h2.big-title
+h1.big-title
 {
     font-size: 56px;
     font-weight: 900;
-    line-height: 100%;
     padding-top: 70px;
+}
+
+h1.big-title,
+h2.big-title
+{
+    line-height: 100%;
     padding-bottom: 25px;
     color: #fff;
-    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -373,7 +376,13 @@ h2.big-title
 h2.big-title
 {
     padding-top: 0px;
-    font-size: 40px;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+h2.big-title.uppercase {
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
 .title-desc
@@ -759,6 +768,7 @@ div.pp_default .pp_loaderIcon
     padding-bottom: 40px;
     color: var(--primary-pink);
     letter-spacing: 4px;
+    text-transform: uppercase;
 }
 
 .member-content
@@ -825,10 +835,10 @@ div.pp_default .pp_loaderIcon
     position: absolute;
     top: 17px;
     z-index: 2;
-    left: -11px;
-    font-weight: bold;
+    left: 15px;
+    font-weight: 500;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 100%;
     transition: color .2s linear, left .2s linear;
 }
@@ -1321,7 +1331,7 @@ footer .personal-footer {
     }
 
     .toggle:checked + .lbl-toggle + .collapsible-content {
-        max-height: 800px;
+        max-height: 845px;
     }
 
     .toggle:checked + .lbl-toggle::before {
@@ -1355,7 +1365,8 @@ footer .personal-footer {
 
     h2.big-title
     {
-        font-size: 30px;
+        font-size: 24px;
+        padding-top: 10px;
     }
 
     h1.big-title
@@ -1502,7 +1513,7 @@ footer .personal-footer {
 
     h1.big-title
     {
-		font-size: 37px;
+		font-size: 34px;
     }
 
 	.title-desc
@@ -1531,8 +1542,8 @@ footer .personal-footer {
     }
 
     .progress_bar_title {
-        font-size: 25px;
-        left: -4px;
+        font-size: 22px;
+        left: 10px;
     }
 
     .progress_bar_field_holder:hover .progress_bar_title {
@@ -1565,13 +1576,13 @@ footer .personal-footer {
 	h1.big-title,
     h2.big-title
 	{
-        font-size: 30px;
+        font-size: 25px;
         padding-left: 5px;
         padding-right: 5px;
     }
     
     h2.big-title {
-        font-size: 25px;
+        font-size: 18px;
         padding-top: 8px;
     }
 
@@ -1610,7 +1621,7 @@ footer .personal-footer {
 
     .progress_bar_title
     {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .progress_bar_percent_text
