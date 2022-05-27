@@ -1331,7 +1331,7 @@ footer .personal-footer {
     }
 
     .toggle:checked + .lbl-toggle + .collapsible-content {
-        max-height: 845px;
+        max-height: 900px;
     }
 
     .toggle:checked + .lbl-toggle::before {
