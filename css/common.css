@@ -256,9 +256,9 @@ iframe
 a.button {
 	display: inline-block;
 	color: #222;
-	background-color: var(--primary-yellow);
+	background-color: var(--primary);
 	border-radius: 7px;
-	border-bottom: solid 4px var(--accent-yellow);
+	border-bottom: solid 4px var(--accent-primary);
 	text-align: center;
 	padding-bottom: 12px;
 	padding-top: 13px;
@@ -281,8 +281,8 @@ a.button:active
 }
 a.button:hover
 {
-    background-color: var(--primary-pink);
-    border-bottom-color: var(--accent-pink);
+    background-color: var(--secondary);
+    border-bottom-color: var(--accent-secondary);
     color: #fff;
 }
 

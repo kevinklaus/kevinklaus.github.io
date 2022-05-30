@@ -1,8 +1,9 @@
 :root {
-    --primary-yellow: #FFC823;
-    --primary-pink: #DC3C92;
-    --accent-yellow: #a98517;
-    --accent-pink: #85255f;
+    --primary: #FFC823;
+    --secondary: #DC3C92;
+    --accent-primary: #a98517;
+    --accent-secondary: #85255f;
+    --copy: var(--copy);
 }
 
 
@@ -13,19 +14,19 @@ body
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
-    color: #333;
+    color: var(--copy);
 }
 
 body a
 {
     text-decoration: none;
-    color: #333;
+    color: var(--copy);
     transition: color .2s linear;
 }
 
 body a:hover
 {
-    color: var(--primary-yellow);
+    color: var(--primary);
 }
 
 
@@ -72,11 +73,11 @@ body a:hover
 
 .pink-text
 {
-    color: var(--primary-pink);
+    color: var(--secondary);
 }
 
 .yellow-text {
-    color: var(--primary-yellow);
+    color: var(--primary);
 }
 
 .strong
@@ -100,7 +101,7 @@ body a:hover
 {    
     transition: background-color .2s linear;
     z-index: 99 !important;
-    background-color: #333;
+    background-color: var(--copy);
     width: 100% !important;
     top: 0;
     position: fixed;
@@ -143,17 +144,17 @@ body a:hover
 
 .main-menu.sm-clean a:hover 
 {
-    color: var(--primary-pink) !important;
+    color: var(--secondary) !important;
 }
 
 .sm-clean li.active a
 {
-    color: var(--primary-pink) !important;
+    color: var(--secondary) !important;
 }
 
 .sm-clean li.active.activeBlack a
 {
-    color: #333 !important;
+    color: var(--copy) !important;
 }
 
 .mob-menu {
@@ -231,7 +232,7 @@ body a:hover
 
 .section-title-holder
 {
-    background-color: var(--primary-yellow);
+    background-color: var(--primary);
     width: 300px;
     height: 300px;
     z-index: 2;
@@ -294,7 +295,7 @@ body a:hover
 	line-height: 100%;
 	text-transform: uppercase;
 	margin-top: -10px;
-	color: var(--primary-yellow);
+	color: var(--primary);
 }
 
 .extra-content-left
@@ -342,7 +343,7 @@ input[type='checkbox'] {
 {
     padding-bottom: 170px;
     min-height: 75vh;
-    background-color: var(--primary-yellow);
+    background-color: var(--primary);
     background-image:url(../images/background_img_01b.jpg);
     background-position: center center;
     background-size: cover;
@@ -413,18 +414,18 @@ h2.big-title.uppercase {
 
 #services
 {
-    background-color: var(--primary-yellow);
+    background-color: var(--primary);
     z-index: 9;
 }
 
 #services .section-title-holder
 {
-    background-color: var(--primary-yellow)
+    background-color: var(--primary)
 }
 
 #services .section-title-holder span
 {
-    color: var(--primary-pink);
+    color: var(--secondary);
 }
 
 .service-holder 
@@ -462,17 +463,17 @@ h2.big-title.uppercase {
 
 #portfolio
 {
-    background-color: #333;
+    background-color: var(--copy);
 }
 
 #portfolio .section-title-holder
 {
-    background-color: var(--primary-yellow);
+    background-color: var(--primary);
 }
 
 #portfolio .section-title-holder span
 {
-    color: var(--primary-yellow);
+    color: var(--primary);
 }
 
 .page-template-page-portfolio .section
@@ -492,7 +493,7 @@ h2.big-title.uppercase {
     font-weight: 700;
     font-size: 20px;
     width: 430px;
-    background-color: #333;
+    background-color: var(--copy);
     text-align: center;
 }
 
@@ -590,7 +591,7 @@ h2.big-title.uppercase {
 
 .portfolio-type {
 	font-size: 35px;
-	color: var(--primary-yellow);
+	color: var(--primary);
 	padding: 30px 0 20px 3px;
 }
 
@@ -607,7 +608,7 @@ h2.big-title.uppercase {
     font-size: 25px;
     line-height: 27px;
     margin-bottom: 20px;
-	color: var(--primary-yellow);
+	color: var(--primary);
 }
 
 .portfolio-sec-text
@@ -622,7 +623,7 @@ h2.big-title.uppercase {
     padding-top: 20px;
 	font-weight: 400;
 	font-size: 16px;
-	color: var(--primary-yellow);
+	color: var(--primary);
 }
 
 .grid-item a:hover
@@ -655,23 +656,23 @@ div.pp_default .pp_loaderIcon
 
 
 #cv {
-	background-color: #333;
+	background-color: var(--copy);
 	padding-top: 200px;
 }
 
 #cv .section-title-holder
 {
-    background-color: var(--primary-yellow);
+    background-color: var(--primary);
 }
 
 #cv .section-title-holder span
 {
-    color: #333;
+    color: var(--copy);
 }
 
 #cv .content-title
 {
-    color: var(--primary-pink);
+    color: var(--secondary);
     font-size: 90px;
 }
 
@@ -703,30 +704,30 @@ div.pp_default .pp_loaderIcon
 
 .separate
 {
-    border-top: 1px solid var(--primary-pink);
+    border-top: 1px solid var(--secondary);
     padding-top: 7px;
     margin-top: 6px;
 }
 
 
 #about {
-	background-color: #333;
+	background-color: var(--copy);
     padding-top: 200px;
 }
 
 #about .section-title-holder
 {
-    background-color: var(--primary-yellow);
+    background-color: var(--primary);
 }
 
 #about .section-title-holder span
 {
-    color: #333;
+    color: var(--copy);
 }
 
 #about .content-title
 {
-    color: var(--primary-pink);
+    color: var(--secondary);
 }
 
 #about .section-content-holder
@@ -758,7 +759,7 @@ div.pp_default .pp_loaderIcon
     font-size: 30px;
     font-weight: 700;
     padding: 0;
-    color: var(--primary-yellow);
+    color: var(--primary);
 }
 
 .member-position
@@ -766,7 +767,7 @@ div.pp_default .pp_loaderIcon
     line-height: 16px;
     font-size: 14px;
     padding-bottom: 40px;
-    color: var(--primary-pink);
+    color: var(--secondary);
     letter-spacing: 4px;
     text-transform: uppercase;
 }
@@ -790,18 +791,18 @@ div.pp_default .pp_loaderIcon
 
 #skills
 {
-    background-color:  #333;
+    background-color:  var(--copy);
     padding-top: 200px;
 }
 
 #skills .section-title-holder
 {
-    background-color: var(--primary-pink);
+    background-color: var(--secondary);
 }
 
 #skills .section-title-holder span
 {
-    color: var(--primary-yellow);
+    color: var(--primary);
 }
 
 .progress_bar 
@@ -872,7 +873,7 @@ div.pp_default .pp_loaderIcon
 /* CONTACT SECTION */
 
 #contact {
-	background-color: var(--primary-yellow);
+	background-color: var(--primary);
 	background-image: url("../images/background_img_01b.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -884,13 +885,13 @@ div.pp_default .pp_loaderIcon
 
 #contact .section-title-holder
 {
-    background-color: var(--primary-yellow);
-    color: var(--primary-pink);
+    background-color: var(--primary);
+    color: var(--secondary);
 }
 
 #contact .section-title-holder span
 {
-    color: #333;
+    color: var(--copy);
 }
 
 #contact .section-content-holder {
@@ -924,7 +925,7 @@ div.pp_default .pp_loaderIcon
 /* FOOTER */
 
 footer {
-	background-color: #333;
+	background-color: var(--copy);
 	box-shadow: 0 -2px 15px -1px #111;
 }
 
@@ -932,7 +933,7 @@ footer {
 	font-size: 16px;
 	line-height: 36px;
 	clear: both;
-	color: #333;
+	color: var(--copy);
 	text-align: center;
 	padding: 50px 0;
 }
@@ -965,7 +966,7 @@ copyright-footer
 .social-footer a {
 	margin: 0 15px;
 	font-size: 35px;
-	color: var(--primary-yellow);
+	color: var(--primary);
 }
 
 .copyright-footer {
@@ -1290,7 +1291,7 @@ footer .personal-footer {
 
     .lbl-toggle {
         display: inline-block;
-        color: var(--primary-pink);
+        color: var(--secondary);
         text-align: center;
         padding-bottom: 10px;
         padding-left: 3px;

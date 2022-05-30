@@ -2,7 +2,7 @@
 
 .portfolio
 {
-	background-color: var(--primary-yellow);
+	background-color: var(--primary);
 }
 
 .single-portfolio .menu-wrapper
@@ -27,7 +27,7 @@
 {
 	top: -60px;
 	right: -60px;
-	background-color: var(--primary-pink);
+	background-color: var(--secondary);
 	line-height: 0;
 	font-size: 0;
 	width: 60px;
@@ -46,7 +46,7 @@
 
 .single-portfolio .x-close:hover
 {
-	background-color: var(--primary-yellow);
+	background-color: var(--primary);
 }
 
 .single-portfolio .entry-content .one
@@ -87,7 +87,7 @@
 }
 
 .portfolio-cta-link:hover {
-	color: var(--primary-pink);
+	color: var(--secondary);
 }
 
 
