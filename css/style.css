@@ -26,6 +26,7 @@ body
     line-height: 26px;
     font-weight: 400;
     color: var(--copy);
+    background: var(--secondary);
 }
 
 body a
