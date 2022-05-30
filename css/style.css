@@ -6,7 +6,6 @@
     --accent-secondary: #85255f;
     --copy: #333;
 
-
     --primary: #00b287;
     --secondary: #fbc823;
     --accent-primary: #017257;
@@ -1637,7 +1636,6 @@ footer .personal-footer {
         font-size: 14px;
         left: 8px;
         top: 15px;
-        font-weight: 400;
     }
 
     .progress_bar_percent_text
