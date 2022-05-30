@@ -1331,7 +1331,7 @@ footer .personal-footer {
     }
 
     .toggle:checked + .lbl-toggle + .collapsible-content {
-        max-height: 900px;
+        max-height: 1000px;
     }
 
     .toggle:checked + .lbl-toggle::before {
@@ -1621,11 +1621,28 @@ footer .personal-footer {
 
     .progress_bar_title
     {
-        font-size: 20px;
+        font-size: 14px;
+        left: 8px;
+        top: 15px;
+        font-weight: 400;
     }
 
     .progress_bar_percent_text
     {
-        font-size: 25px;
+        font-size: 22px;
+        top: 12px;
+        right: 1px;
+    }
+
+    .progress_bar_field_holder {
+        height: 44px;
+    }
+
+    div#skills div.section-content-holder div.content-wrapper {
+        padding: 2% 2% 15% 2%;
+    }
+
+    .progress_bar {
+        margin-bottom: 10px;
     }
 }
