@@ -257,13 +257,10 @@ a.button {
 	display: inline-block;
 	color: #222;
 	background-color: var(--primary);
-	border-radius: 7px;
+	border-radius: 28px;
 	border-bottom: solid 4px var(--accent-primary);
 	text-align: center;
-	padding-bottom: 12px;
-	padding-top: 13px;
-	padding-left: 25px;
-	padding-right: 25px;
+    padding: 13px 25px;
 	cursor: pointer;
 	margin-bottom: 25px;
 	vertical-align: middle;
