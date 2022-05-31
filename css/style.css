@@ -1004,6 +1004,32 @@ footer .personal-footer {
 /* END FOOTER */
 
 /* RESPONSIVE PART */
+@media screen and (min-width: 1440px) {   
+    h1.big-title {
+        font-size: 70px;
+        font-weight: 500;
+    }
+    h2.big-title {
+        padding-top: 20px;
+        font-weight: 100;
+        font-size: 34px;
+    }
+    .title-desc {
+        font-size: 24px;
+    }
+}
+
+
+@media screen and (min-width: 1270px) {   
+    .top-logo {
+        height: 200px;
+        width: 200px;
+        margin-top: 95px;
+    }
+    .flip-container, .front, .back {
+        height: 300px;
+    }
+}
 
 @media screen and (max-width: 1270px) {   
 
