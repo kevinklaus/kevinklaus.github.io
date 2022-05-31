@@ -134,10 +134,9 @@ body a:hover
 
 .main-menu.sm-clean a
 {    
-    font-size: 14px;
+    font-size: 16px;
     line-height: 40px;
     color: #fff;
-    font-weight: 600;
     transition: color .2s linear;
     text-transform: uppercase;
     letter-spacing: 0.05cm;
@@ -476,6 +475,7 @@ h2.big-title.uppercase {
 #portfolio
 {
     background-color: var(--copy);
+    padding-top: 150px;
 }
 
 #portfolio .section-title-holder
@@ -724,7 +724,7 @@ div.pp_default .pp_loaderIcon
 
 #about {
 	background-color: var(--copy);
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 #about .section-title-holder
@@ -1331,23 +1331,20 @@ footer .personal-footer {
         display: inline-block;
         color: var(--secondary);
         text-align: center;
-        padding-bottom: 10px;
-        padding-left: 3px;
+        padding-left: 1px;
         padding-right: 25px;
         cursor: pointer;
         vertical-align: middle;
         text-decoration: none;
-        text-transform: uppercase;
         font-size: 16px;
         transition:  .4s linear;
-        letter-spacing: 0.7px;
     }
 
     .lbl-toggle:hover {
         color: #4d4d4d;
     }
 
-    .lbl-toggle::before {
+    .lbl-toggle::after {
         content: ' ';
         display: inline-block;
 
@@ -1356,8 +1353,9 @@ footer .personal-footer {
         border-left: 8px solid currentColor;
 
         vertical-align: middle;
-        margin-right: .7rem;
-        transform: translateY(-2px);
+        margin-left: .65rem;
+
+        transform: rotate(90deg)  translateX(-1px);
 
         transition: transform .2s ease-out;
     }
@@ -1373,13 +1371,14 @@ footer .personal-footer {
         max-height: 1000px;
     }
 
-    .toggle:checked + .lbl-toggle::before {
-        transform: rotate(90deg) translateX(-3px);
+    .toggle:checked + .lbl-toggle::after {
+        transform: rotate(-90deg) translateX(2px);
     }
 
     .toggle:checked + .lbl-toggle {
         color: #4d4d4d;
         cursor: default;
+        padding-bottom: 10px;
     }
 
 
