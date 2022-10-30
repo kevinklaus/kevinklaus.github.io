@@ -134,12 +134,11 @@ body a:hover
 
 .main-menu.sm-clean a
 {    
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 300;
     line-height: 40px;
     color: #fff;
     transition: color .2s linear;
-    text-transform: uppercase;
-    letter-spacing: 0.05cm;
 }
 
 .main-menu.sm-clean .sub-menu a 
@@ -155,12 +154,13 @@ body a:hover
 
 .main-menu.sm-clean a:hover 
 {
-    color: var(--primary);
+    color: var(--copy);
+
 }
 
 .sm-clean li.active a
 {
-    color: var(--copy);
+    color: var(--primary);
 }
 
 /* .sm-clean li.active.activeBlack a
@@ -253,14 +253,13 @@ body a:hover
 .section-title-holder h2
 {
     font-weight: 900;
-    font-size: 38px;
+    font-size: 44 px;
     margin-left: 100px;
     width: 240px;
     word-break: break-word;
     line-height: 83px;
     margin-top: 10px;
     color: white;
-    text-transform: uppercase;
     padding: 0;
 }
 
@@ -1215,6 +1214,7 @@ footer .personal-footer {
         margin: 0;
         vertical-align: top;
         margin-top: 15px;
+        margin-bottom: 20px;
         font-size: 35px;
         line-height: 130%;
         margin-left: 30px;
