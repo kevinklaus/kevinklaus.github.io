@@ -88,8 +88,12 @@ body a:hover
     color: var(--secondary);
 }
 
-.primary-text {
+.accent-primary-text {
     color: var(--accent-primary);
+}
+
+.primary-text {
+    color: var(--primary);
 }
 
 .strong
