@@ -12,9 +12,9 @@
     --accent-secondary: #f48f17;
     --copy: #333; */
 
-    --primary: #FFC823;
+    --primary: #F8E96A;
     --secondary: #039874;
-    --accent-primary: #ffa73e;
+    --accent-primary: #ffc23e;
     --accent-secondary: #11daa9;
     --copy: #333;
 }
@@ -89,7 +89,7 @@ body a:hover
 }
 
 .primary-text {
-    color: var(--primary);
+    color: var(--accent-primary);
 }
 
 .strong
@@ -770,7 +770,7 @@ div.pp_default .pp_loaderIcon
     font-size: 30px;
     font-weight: 700;
     padding: 0;
-    color: var(--primary);
+    color: var(--accent-primary);
 }
 
 .member-position
