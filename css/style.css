@@ -38,7 +38,7 @@ body a
 
 body a:hover
 {
-    color: var(--primary);
+    color: var(--accent-primary);
 }
 
 
@@ -305,10 +305,10 @@ body a:hover
 .section-content-holder .content-title {
 	font-weight: 900;
 	text-align: right;
-	font-size: 84px;
+	font-size: 160px;
 	line-height: 100%;
 	text-transform: uppercase;
-	margin-top: -10px;
+	margin-top: -30px;
 	color: var(--primary);
 }
 
@@ -689,6 +689,7 @@ div.pp_default .pp_loaderIcon
 {
     color: var(--secondary);
     font-size: 90px;
+    margin-top: -20px;
 }
 
 #cv .section-content-holder
@@ -713,7 +714,7 @@ div.pp_default .pp_loaderIcon
 /* ABOUT SECTION */
 
 .list li {
-    padding: 0 0 0 1px;
+    padding: 4px 0 4px 1px;
 
 }
 
@@ -820,14 +821,19 @@ div.pp_default .pp_loaderIcon
     color: var(--primary);
 }
 
+#skills div.wrap-collabsible
+{
+    margin-left: 10px;
+}
+
 .progress_bar 
 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .progress_bar_field_holder 
 {
-    height: 59px;
+    height: 40px;
     position: relative;
     width: 100%;
     vertical-align: middle;
@@ -836,25 +842,23 @@ div.pp_default .pp_loaderIcon
 
 .progress_bar_field_holder:hover .progress_bar_title
 {
-    left: 10px;
-    color: #fff !important;
+    left: 2px;
 }
 
 .progress_bar_field_holder:hover .progress_bar_percent_text
 {
-    right: 10px;
-    color: #fff !important;
+    right: 5%;
 }
 
 .progress_bar_title
 {
     position: absolute;
-    top: 17px;
+    top: 12px;
     z-index: 2;
     left: 15px;
     font-weight: 500;
-    color: white;
-    font-size: 25px;
+    color: var(--copy);
+    font-size: 16px;
     line-height: 100%;
     transition: color .2s linear, left .2s linear;
 }
@@ -862,12 +866,12 @@ div.pp_default .pp_loaderIcon
 .progress_bar_percent_text
 {
     position: absolute;
-    right: -35px;
-    top: 15px;
+    right: 2px;
+    top: 8px;
     z-index: 2;
     font-weight: bold;
-    color: white;
-    font-size: 35px;
+    color: var(--copy);
+    font-size: 20px;
     line-height: 100%;
     transition: color .2s linear, right .2s linear;
 }
@@ -879,6 +883,7 @@ div.pp_default .pp_loaderIcon
     top: 0;
     left: 0;
     width: 100%;
+    background-color: var(--primary);
 }
 
 /* END SKILLS SECTION */
@@ -1074,6 +1079,11 @@ footer .personal-footer {
         width: 250px;        
     }
 
+    #cv .content-title {
+        font-size: 80px;
+    }
+
+
     .section-content-holder.right 
     {
         margin-left: 250px;
@@ -1126,8 +1136,8 @@ footer .personal-footer {
 
     .section-content-holder .content-title 
     {    
-        font-size: 140px;    
-        margin-top: -46px;
+        font-size: 130px;    
+        margin-top: -25px;
     }
 
     .member-content-holder 
@@ -1173,6 +1183,10 @@ footer .personal-footer {
         float: none;
         margin-right: 0;
         margin-left: 0;
+    }
+
+    #cv .section {
+        padding-top: 0px !important;
     }
 
     .image-slider-wrapper.service a.image_slider_next 
@@ -1308,7 +1322,7 @@ footer .personal-footer {
     .section-content-holder .content-title 
     {
         font-size: 19vw;
-        margin-top: 0;
+        margin-top: -40px;
     }
 
     .testimonial-slider-holder 
@@ -1582,25 +1596,6 @@ footer .personal-footer {
         right: auto;
         left: 30px;
     }
-
-    .progress_bar_title {
-        font-size: 22px;
-        left: 10px;
-    }
-
-    .progress_bar_field_holder:hover .progress_bar_title {
-        left: 15px;
-    }
-
-    .progress_bar_field_holder:hover .progress_bar_percent_text {
-        right: 21px;
-    }
-
-    .progress_bar_percent_text
-    {
-        font-size: 30px;
-        right: 8px;
-    }
 }
 
 
@@ -1661,29 +1656,7 @@ footer .personal-footer {
         top: -84px;
     }
 
-    .progress_bar_title
-    {
-        font-size: 14px;
-        left: 8px;
-        top: 15px;
-    }
-
-    .progress_bar_percent_text
-    {
-        font-size: 22px;
-        top: 12px;
-        right: 1px;
-    }
-
-    .progress_bar_field_holder {
-        height: 44px;
-    }
-
     div#skills div.section-content-holder div.content-wrapper {
         padding: 2% 2% 15% 2%;
-    }
-
-    .progress_bar {
-        margin-bottom: 10px;
     }
 }
