@@ -251,18 +251,18 @@ body a:hover
     width: 300px;
     height: 300px;
     z-index: 2;
-    box-shadow: 0 -2px 15px -1px #111;
+    border-radius: 50%;
 }
 
 .section-title-holder h2
 {
     font-weight: 900;
-    font-size: 44 px;
+    font-size: 44px;
     margin-left: 100px;
     width: 240px;
     word-break: break-word;
-    line-height: 83px;
-    margin-top: 10px;
+    line-height: 60px;
+    margin-top: 65px;
     color: white;
     padding: 0;
 }
@@ -277,6 +277,7 @@ body a:hover
 	width: 800px;
 	padding: 60px 0;
 	box-shadow: 0 -2px 15px -1px #111;
+    border-radius: 1em;
 }
 
 .section-content-holder .content-wrapper
@@ -687,9 +688,8 @@ div.pp_default .pp_loaderIcon
 
 #cv .content-title
 {
-    color: var(--secondary);
-    font-size: 90px;
-    margin-top: -20px;
+    font-size: 100px;
+    margin-top: -15px;
 }
 
 #cv .section-content-holder
@@ -829,6 +829,7 @@ div.pp_default .pp_loaderIcon
 .progress_bar 
 {
     margin-bottom: 10px;
+    color: #fff;
 }
 
 .progress_bar_field_holder 
@@ -857,7 +858,6 @@ div.pp_default .pp_loaderIcon
     z-index: 2;
     left: 15px;
     font-weight: 500;
-    color: var(--copy);
     font-size: 16px;
     line-height: 100%;
     transition: color .2s linear, left .2s linear;
@@ -870,7 +870,6 @@ div.pp_default .pp_loaderIcon
     top: 8px;
     z-index: 2;
     font-weight: bold;
-    color: var(--copy);
     font-size: 20px;
     line-height: 100%;
     transition: color .2s linear, right .2s linear;
@@ -883,7 +882,7 @@ div.pp_default .pp_loaderIcon
     top: 0;
     left: 0;
     width: 100%;
-    background-color: var(--primary);
+    background-color: var(--secondary);
 }
 
 /* END SKILLS SECTION */
@@ -1051,7 +1050,7 @@ footer .personal-footer {
         margin-right: 8%;
         float: left;
         position: relative;
-        margin-bottom: 37px;
+        margin-bottom: 60px;
     }
 
     .one_half
@@ -1069,18 +1068,18 @@ footer .personal-footer {
     {
         font-size: 30px;
         width: 180px;        
-        line-height: 66px;
-        margin-top: 25px;        
+        line-height: 45px;
+        margin-top: 55px;        
         margin-left: 75px; 
     }
 
     #cv .section-title-holder h2
     {
-        width: 250px;        
+        width: 225px;        
     }
 
     #cv .content-title {
-        font-size: 80px;
+        font-size: 88px;
     }
 
 
@@ -1223,6 +1222,7 @@ footer .personal-footer {
         height: auto;
         position: relative !important;
         top: 0 !important;
+        border-radius: 0%;
     }
 
     .section-title-holder h2
@@ -1242,6 +1242,7 @@ footer .personal-footer {
     {
         width: 100%;
         padding: 30px 0;    
+        border-radius: 0;
     }
 
     .section-content-holder .content-wrapper
