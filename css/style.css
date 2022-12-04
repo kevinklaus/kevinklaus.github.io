@@ -875,7 +875,7 @@ div.pp_default .pp_loaderIcon
     transition: color .2s linear, right .2s linear;
 }
 
-.progress_bar_field_perecent 
+.progress_bar_field_percent 
 {
     height: 59px;    
     position: absolute;
