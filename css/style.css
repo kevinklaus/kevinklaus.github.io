@@ -720,7 +720,7 @@ div.pp_default .pp_loaderIcon
 
 .separate
 {
-    border-top: 1px solid var(--secondary);
+    border-top: 1px dashed var(--secondary);
     padding-top: 7px;
     margin-top: 6px;
 }
