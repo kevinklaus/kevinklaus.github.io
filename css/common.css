@@ -283,6 +283,19 @@ a.button:hover
     color: #fff;
 }
 
+a.button.secondary {
+	color: #fff;
+	background-color: var(--secondary);
+	border-bottom: solid 4px var(--accent-secondary);
+}
+
+a.button.secondary:hover
+{
+    background-color: var(--primary);
+    border-bottom-color: var(--accent-primary);
+    color: #222;
+}
+
 
 h1,h2,h3,h4,h5,h6
 {
