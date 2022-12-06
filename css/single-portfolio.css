@@ -21,6 +21,8 @@
 	padding-bottom: 50px;
 	font-size: 18px;
 	line-height: 30px;
+	border-radius: 2em;
+    margin-bottom: 8vh;
 }
 
 .single-portfolio .x-close
@@ -46,7 +48,7 @@
 
 .single-portfolio .x-close:hover
 {
-	background-color: var(--primary);
+	background-color: var(--accent-secondary);
 }
 
 .single-portfolio .entry-content .one
