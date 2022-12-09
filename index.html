@@ -22,7 +22,7 @@
 
 
     </head>
-    <body>
+    <body id="home" >
 
         <!-- Preloader Gif -->
         <table class="doc-loader">
@@ -36,45 +36,47 @@
         <!-- Menu -->
         <div class="menu-wrapper center-relative">
             <nav id="header-main-menu">
-                <div class="mob-menu">MENU</div>
+                <div class="mob-menu">menu</div>
                 <ul class="main-menu sm sm-clean">
-                    <li><a id="homeMenu" href="#home">Home</a></li>
+                    <li class="active menu-logo"><a id="homeMenu" href="#home"><img src="images/logo.svg" alt="Logo of Kevin Klaus">Kevin Klaus</a></li>
                     <li class="activeBlack"><a href="#cv">CV</a></li>
                     <li class="activeBlack"><a href="#skills">Skills</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li class="activeBlack"><a href="#about">About</a></li>
-                    <li><a id="contactMenu" href="#contact">Contact</a></li>
+                    <li class="menu-contact"><a id="contactMenu bold" href="#contact">Get in touch <span style="padding-left: 5px; font-size: 18px" class="fa fa-child"></span> </a></li>
                 </ul>
             </nav>
         </div>
 
         <!-- Home -->
 
-        <div id="home" class="section intro-page">
+        <div class="section intro-page">
 	        <div class="block center-relative center-text">
 
-		        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		        <!-- <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
 			        <div class="flipper">
-				        <div class="front">
+				        <div class="front"> -->
                             <img class="top-logo" src="images/profile_img.jpg" alt="Photo of Kevin Klaus" />
-				        </div>
+				        <!-- </div>
 				        <div class="back">
                             <img class="top-logo" src="images/logo.png" alt="Logo by Kevin Klaus, letter 'K' in yellow on a green circle" />
 				        </div>
 			        </div>
-		        </div>
+		        </div> -->
 
 	        </div>
-	        <div class="block content-1170 center-relative center-text">
-                <h1 class="big-title">
-                    Product Designer & <span class="primary-text">Leader</span>
-                </h1>
-                <h2 class="big-title uppercase"><span class="primary-text">Empathy</span> &amp; Strategy</h2>
-                <p class="title-desc">
-                    Team Lead Product Design at Verimi</br>
-                    Media Informatics background</p>
-		        <a class="button secondary top-30" onclick=" jQuery('#contactMenu').trigger('click'); "> Get in touch! <span style="padding-left: 5px; font-size: 18px" class="fa fa-child"></span> </a>
-	        </div>
+	        <div class="full-height-center">
+                <div class="block content-1170 center-relative center-text top-50">
+                    <h1 class="big-title">
+                        Product Designer & <span class="secondary-text">Leader</span>
+                    </h1>
+                    <h2 class="big-title uppercase"><span class="secondary-text">Empathy</span> &amp; Strategy</h2>
+                    <!-- <p class="title-desc">
+                        Team Lead Product Design at Verimi</br>
+                        Media Informatics background</p>
+                    <a class="button secondary top-30" onclick=" jQuery('#contactMenu').trigger('click'); "> Get in touch! <span style="padding-left: 5px; font-size: 18px" class="fa fa-child"></span> </a> -->
+                </div>
+            </div>
         </div>
 
 
@@ -284,7 +286,7 @@
                             <div class="collapsible-content">
                                 <div class="content-inner">
                                     <ul class="list">
-                                        <li>🦄 I transformed the Verimi App into a digital Wallet and user growth factor number one. - <a class="secondary-text strong" href="single-portfolio-wallet.html">more about that...</a></li>
+                                        <li>🦄 I transformed the Verimi App into a digital Wallet and user growth factor number one - <a class="secondary-text strong" href="single-portfolio-wallet.html">more about that...</a></li>
                                         <li>🦄 At Kochhaus I developed responsive Foodie eCommerce web pages for a year driving conversions up</li>
                                         <li>🦄 ... and have simplified highly complex business workflow applications on an Intranet platform at BASF for over two years</li>
                                     </ul>
@@ -384,7 +386,7 @@
                                 <div class="content-inner">
                                     <ul class="list">
                                         <li>💎 Designed & developed a Design System and its components for a global BASF Intranet platform</li>
-                                        <li>💎 Developed Web Components and a Storybook for the HTW Berlin Design System I built - <a class="secondary-text strong" href="single-portfolio-htw-ds.html">take a look...</a></li>
+                                        <li>💎 Developed a HTW Berlin Design System including all Web Components and a Storybook - <a class="secondary-text strong" href="single-portfolio-htw-ds.html">take a look...</a></li>
                                         <li>💎 Enabling productization of our ID Wallet at scale by advocating for a white-label Design System at Verimi</li>
                                     </ul>
                                     <br>

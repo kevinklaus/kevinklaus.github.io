@@ -12,10 +12,11 @@
     --accent-secondary: #f48f17;
     --copy: #333; */
 
-    --primary: #F8E96A;
-    --secondary: #039874;
-    --accent-primary: #ffc23e;
-    --accent-secondary: #11daa9;
+    --primary: #039874;;
+    --secondary: #ff7a00;
+    --accent-primary: #02553d;
+    --accent-secondary: #d1401c;
+    --bg:#1f404c;
     --copy: #333;
 }
 
@@ -26,7 +27,7 @@ body
     line-height: 26px;
     font-weight: 400;
     color: var(--copy);
-    background: var(--secondary);
+    background: var(--bg);
 }
 
 body a
@@ -121,12 +122,11 @@ body a:hover
     width: 100% !important;
     top: 0;
     position: fixed;
-    box-shadow: 0 -2px 16px -3px #444;
+    /* box-shadow: 0 -2px 16px -3px #444; */
 }
 
 #header-main-menu
 {    
-    max-width: 1170px;
     margin: 0 auto;
     text-align: center;
 }
@@ -143,6 +143,7 @@ body a:hover
     line-height: 40px;
     color: #fff;
     transition: color .2s linear;
+    letter-spacing: 1px;
 }
 
 .main-menu.sm-clean .sub-menu a 
@@ -164,7 +165,12 @@ body a:hover
 
 .sm-clean li.active a
 {
-    color: var(--primary);
+    color: var(--copy);
+}
+
+.sm-clean li.active a#homeMenu
+{
+    color: #fff;
 }
 
 /* .sm-clean li.active.activeBlack a
@@ -174,7 +180,7 @@ body a:hover
 
 .mob-menu {
 	display: none;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 20px;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -200,7 +206,7 @@ body a:hover
 
 .flip-container, .front, .back {
     width: 100%;
-    height: 200px;
+    height: 350px;
 }
 
 /* flip speed goes here */
@@ -354,36 +360,39 @@ input[type='checkbox'] {
 
 /* HOME SECTION */
 
+.full-height-center
+{
+    height: 100%;
+}
+
 .intro-page 
 {
-    padding-bottom: 170px;
-    min-height: 65vh;
+    height: 95vh;
     background-color: var(--primary);
-    background-image:url(../images/background_img_01b.jpg);
-    background-position: center center;
+    background-image:url(../images/hero_img.jpg);
+    background-position: top center;
     background-size: cover;
     z-index: 10;
 }
 
 .top-logo {
-	width: 175px;
-	margin-top: 50px;
+    width: 180px;
+    margin-top: 85px;
 	border-radius: 50%;
-	box-shadow: 0 -2px 14px 0px #222;
+	box-shadow: 0 2px 14px 0px #444;
 }
 
 h1.big-title
 {
     font-size: 56px;
     font-weight: 900;
-    padding-top: 70px;
 }
 
 h1.big-title,
 h2.big-title
 {
     line-height: 100%;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
     color: #fff;
     margin-left: auto;
     margin-right: auto;
@@ -478,7 +487,7 @@ h2.big-title.uppercase {
 
 #portfolio
 {
-    background-color: var(--copy);
+    background-color: var(--bg);
     padding-top: 150px;
 }
 
@@ -672,8 +681,8 @@ div.pp_default .pp_loaderIcon
 
 
 #cv {
-	background-color: var(--copy);
-	padding-top: 200px;
+	background-color: var(--bg);
+	padding-top: 100px;
 }
 
 #cv .section-title-holder
@@ -689,7 +698,7 @@ div.pp_default .pp_loaderIcon
 #cv .content-title
 {
     font-size: 100px;
-    margin-top: -15px;
+    margin-top: -20px;
 }
 
 #cv .section-content-holder
@@ -726,8 +735,8 @@ div.pp_default .pp_loaderIcon
 
 
 #about {
-	background-color: var(--copy);
-    padding-top: 150px;
+	background-color: var(--bg);
+    padding: 150px 0;
 }
 
 #about .section-title-holder
@@ -774,7 +783,7 @@ div.pp_default .pp_loaderIcon
     font-size: 30px;
     font-weight: 700;
     padding: 0;
-    color: var(--accent-primary);
+    color: var(--primary);
 }
 
 .member-position
@@ -782,7 +791,7 @@ div.pp_default .pp_loaderIcon
     line-height: 16px;
     font-size: 14px;
     padding-bottom: 40px;
-    color: var(--secondary);
+    color: var(--primary);
     letter-spacing: 4px;
     text-transform: uppercase;
 }
@@ -806,7 +815,7 @@ div.pp_default .pp_loaderIcon
 
 #skills
 {
-    background-color:  var(--copy);
+    background-color:  var(--bg);
     padding-top: 200px;
 }
 
@@ -881,7 +890,7 @@ div.pp_default .pp_loaderIcon
     top: 0;
     left: 0;
     width: 100%;
-    background-color: var(--secondary);
+    background-color: var(--bg);
 }
 
 /* END SKILLS SECTION */
@@ -892,12 +901,12 @@ div.pp_default .pp_loaderIcon
 
 #contact {
 	background-color: var(--primary);
-	background-image: url("../images/background_img_01b.jpg");
+	background-image: url("../images/hero_img.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	z-index: 3;
-	padding-top: 100px;
+    padding-top: 100px;
     padding-bottom: 200px;
 }
 
@@ -984,7 +993,7 @@ copyright-footer
 .social-footer a {
 	margin: 0 15px;
 	font-size: 35px;
-	color: var(--secondary);
+	color: var(--primary);
 }
 
 .copyright-footer {
@@ -1014,6 +1023,7 @@ footer .personal-footer {
     h1.big-title {
         font-size: 70px;
         font-weight: 500;
+        margin-top: 5vw;
     }
     h2.big-title {
         padding-top: 20px;
@@ -1023,17 +1033,13 @@ footer .personal-footer {
     .title-desc {
         font-size: 24px;
     }
-}
-
-
-@media screen and (min-width: 1270px) {   
-    .top-logo {
-        height: 200px;
-        width: 200px;
-        margin-top: 95px;
+    .top-logo
+    {
+        margin-top: 115px;
+        width: 220px;
     }
     .flip-container, .front, .back {
-        height: 300px;
+        height: 400px;
     }
 }
 
@@ -1163,6 +1169,10 @@ footer .personal-footer {
 
 
 @media screen and (max-width: 1020px) {    
+
+    #contact {
+        padding-top: 0;
+    }
 
     .content-1170 
     {
@@ -1330,6 +1340,7 @@ footer .personal-footer {
         width: 90%;
         padding-left: 5%;
     }    
+    
 }
 
 @media screen and (min-width: 925px) {
@@ -1342,7 +1353,7 @@ footer .personal-footer {
 @media screen and (max-width: 925px) {
 
     .flip-container, .front, .back {
-        height: 230px;
+        height: 300px;
     }
 
     .lbl-toggle {
@@ -1402,7 +1413,7 @@ footer .personal-footer {
 
     .intro-page
     {
-        min-height: 0;
+        height: 88vh;
     }
 
     .section
@@ -1503,14 +1514,6 @@ footer .personal-footer {
         display: none !important;
     }
 
-    .top-logo
-    {
-        height: 140px;
-        width: 140px;
-        margin-bottom: 40px;
-    }
-
-
 	.section-title-holder
 	{
 		padding-top: 75px;
@@ -1555,16 +1558,6 @@ footer .personal-footer {
 
     #cv .content-title {
         font-size: 60px;
-    }
-
-    .flip-container, .front, .back {
-        height: 200px;
-    }
-
-    .top-logo
-    {
-        height: 120px;
-        width: 120px;
     }
 
     h1.big-title
@@ -1630,8 +1623,8 @@ footer .personal-footer {
 
 	.top-logo
 	{
-		height: 110px;
-		width: 110px;
+		height: 140px;
+		width: 140px;
 	}
 
     .section-num 

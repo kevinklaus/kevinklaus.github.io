@@ -255,7 +255,7 @@ iframe
 }
 a.button {
 	display: inline-block;
-	color: #222;
+	color: #fff;
 	background-color: var(--primary);
 	border-radius: 32px;
 	border-bottom: solid 4px var(--accent-primary);
