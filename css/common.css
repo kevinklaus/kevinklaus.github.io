@@ -293,7 +293,7 @@ a.button.secondary:hover
 {
     background-color: var(--primary);
     border-bottom-color: var(--accent-primary);
-    color: #222;
+    color: #fff;
 }
 
 
