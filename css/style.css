@@ -1025,7 +1025,6 @@ footer .personal-footer {
     }
     h2.big-title {
         padding-top: 20px;
-        font-weight: 100;
         font-size: 34px;
     }
     .title-desc {
@@ -1610,8 +1609,10 @@ footer .personal-footer {
     }
     
     h2.big-title {
-        font-size: 18px;
+        font-size: 20px;
         padding-top: 8px;
+        font-weight: 400;
+        letter-spacing: 2px !important;
     }
 
 	.title-desc
