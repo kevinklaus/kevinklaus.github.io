@@ -863,8 +863,9 @@ div.pp_default .pp_loaderIcon
     top: 11px;
     z-index: 2;
     left: 16px;
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 0.1px;
     line-height: 100%;
     transition: color .2s linear, left .2s linear;
 }
