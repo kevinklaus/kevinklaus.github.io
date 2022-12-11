@@ -361,7 +361,7 @@ input[type='checkbox'] {
 
 .top-logo {
     width: 180px;
-    margin: 95px 0 60px 0;
+    margin: 12vh 0 1vh 0;
 	border-radius: 50%;
 	box-shadow: 0 2px 14px 0px #444;
 }
@@ -1011,8 +1011,11 @@ footer .personal-footer {
     }
     .top-logo
     {
-        margin-top: 115px;
-        width: 220px;
+        width: 14vw;
+        margin: 12vh 0 1vh 0;
+    }
+    .intro-page {
+        height: 110vh;
     }
     .flip-container, .front, .back {
         height: 400px;
@@ -1380,12 +1383,6 @@ footer .personal-footer {
         padding-bottom: 10px;
     }
 
-
-    .intro-page
-    {
-        height: 88vh;
-    }
-
     .section
     {
         position: static !important;
@@ -1603,9 +1600,7 @@ footer .personal-footer {
 
 	.top-logo
 	{
-		height: 140px;
-		width: 140px;
-        margin: 60px 0 40px 0;
+		width: 40vw;
 	}
 
     .section-num 
