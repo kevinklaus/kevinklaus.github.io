@@ -172,8 +172,11 @@ body a:hover
 }
 
 .mob-menu {
-	display: none;
-	padding: 7px 0;
+    font-size: 22px;
+    font-weight: 300;
+    display: none;
+    padding: 7px 0;
+    letter-spacing: 3px;
 }
 
 .mob-menu:hover {
