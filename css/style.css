@@ -111,7 +111,7 @@ body a:hover
 /* TOP MENU */
 
 #undefined-sticky-wrapper {
-	height: 56px !important;
+	height: 54px !important;
 }
 
 .menu-wrapper
@@ -133,10 +133,12 @@ body a:hover
 
 .main-menu.sm-clean
 {
-    background-color: transparent;    
+    background-color: transparent;   
+    border-top: solid 1px #ffffff45; 
 }
 
-.main-menu.sm-clean a
+.main-menu.sm-clean a,
+.mob-menu
 {    
     font-size: 16px;
     font-weight: 400;
@@ -169,20 +171,13 @@ body a:hover
     color: #fff;
 }
 
-/* .sm-clean li.active.activeBlack a
-{
-    color: var(--copy) !important;
-} */
-
 .mob-menu {
 	display: none;
-	font-weight: 300;
-	font-size: 20px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	transition: color .2s linear;
-	color: #fff;
-    letter-spacing: 3px;
+	padding: 7px 0;
+}
+
+.mob-menu:hover {
+	color: var(--bg);
 }
 
 /* END TOP MENU */
@@ -1465,6 +1460,14 @@ footer .personal-footer {
     {
         padding-right: 0;
         padding-left: 0;
+    }
+
+    a#homeMenu img
+    {
+        width: 11px;
+        margin-right: 9px;
+        position: relative;
+        top: 2px;
     }
 
     .main-menu.sm-clean a 
