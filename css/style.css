@@ -10,13 +10,21 @@
     --secondary: #fbc823;
     --accent-primary: #017257;
     --accent-secondary: #f48f17;
-    --copy: #333; */
+    --copy: #333; 
+    
+    
+    
+    hot sex blue #3b3dff 
+    */
 
-    --primary: #039874;;
+
+
+    --primary: #3b3dff;;
     --secondary: #ff733b;
-    --accent-primary: #02553d;
+    --accent-primary: #00017a;
     --accent-secondary: #d1401c;
-    --bg:#1f404c;
+    --bg:#fff;
+    --bg-paper: #f8f8ff;
     --copy: #333;
 }
 
@@ -63,6 +71,10 @@ body a:hover
 .em
 {
     font-style: italic;
+}
+
+.maxW550 {
+    max-width: 550px;
 }
 
 
@@ -118,7 +130,7 @@ body a:hover
 {    
     transition: background-color .2s linear;
     z-index: 99 !important;
-    background-color: var(--secondary);
+    background-color: var(--bg-paper);
     width: 100% !important;
     top: 0;
     position: fixed;
@@ -134,7 +146,6 @@ body a:hover
 .main-menu.sm-clean
 {
     background-color: transparent;   
-    border-top: solid 1px #ffffff45; 
 }
 
 .main-menu.sm-clean a,
@@ -143,7 +154,7 @@ body a:hover
     font-size: 16px;
     font-weight: 400;
     line-height: 40px;
-    color: #fff;
+    color: var(--primary);
     transition: color .2s linear;
     letter-spacing: 1px;
 }
@@ -162,7 +173,7 @@ body a:hover
 .main-menu.sm-clean a:hover,
 .sm-clean li.active a
 {
-    color: var(--bg);
+    color: var(--accent-primary);
 
 }
 
@@ -174,6 +185,7 @@ body a:hover
 .mob-menu {
     font-size: 22px;
     font-weight: 300;
+    font-family: serif;
     display: none;
     padding: 7px 0;
     letter-spacing: 3px;
@@ -246,7 +258,7 @@ body a:hover
 
 .section-title-holder
 {
-    background-color: var(--primary);
+    background-color: var(--bg-paper);
     width: 300px;
     height: 300px;
     z-index: 2;
@@ -255,19 +267,20 @@ body a:hover
 
 .section-title-holder h2
 {
-    font-weight: 900;
-    font-size: 44px;
+    font-weight: 400;
+    font-family: serif;
+    font-size: 50px;
     margin-left: 100px;
     width: 240px;
     word-break: break-word;
-    line-height: 60px;
+    line-height: 55px;
     margin-top: 65px;
-    color: white;
+    color: var(--accent-primary);
     padding: 0;
 }
 
 .section-content-holder {
-	background: #f6f8f8;
+	background: var(--bg-paper);
 	width: 800px;
 	padding: 60px 0;
     border-radius: 2em;
@@ -290,20 +303,19 @@ body a:hover
 
 .section-content-holder .content-title-holder
 {
-    overflow: hidden;
     height: 100px;
-    margin-top: -60px;
     padding-bottom: 50px;
 }
 
 .section-content-holder .content-title {
-	font-weight: 900;
-	text-align: right;
-	font-size: 160px;
-	line-height: 100%;
-	text-transform: uppercase;
-	margin-top: -30px;
-	color: var(--primary);
+    font-weight: 600;
+    text-align: right;
+    font-size: 140px;
+    letter-spacing: -1px;
+    line-height: 100%;
+    margin-top: 10px;
+    color: var(--accent-primary);
+    font-family: serif;
 }
 
 .extra-content-left
@@ -354,9 +366,9 @@ input[type='checkbox'] {
 
 .intro-page 
 {
-    height: 95vh;
+    height: 90vh;
     background-color: var(--primary);
-    background-image:url(../images/hero_img.jpg);
+    background-image:url(../images/hero_img.svg);
     background-position: top center;
     background-size: cover;
     z-index: 10;
@@ -366,7 +378,7 @@ input[type='checkbox'] {
     width: 180px;
     margin: 12vh 0 1vh 0;
 	border-radius: 50%;
-	box-shadow: 0 2px 14px 0px #444;
+	/* box-shadow: 0 2px 14px 0px #444; */
 }
 
 h1.big-title
@@ -380,7 +392,7 @@ h2.big-title
 {
     line-height: 100%;
     padding-bottom: 30px;
-    color: #fff;
+    color: var(--primary);
     margin-left: auto;
     margin-right: auto;
 }
@@ -420,72 +432,12 @@ h2.big-title.uppercase {
 /* END HOME SECTION */
 
 
-
-/* SERVICE SECTION */
-
-#services
-{
-    background-color: var(--primary);
-    z-index: 9;
-}
-
-#services .section-title-holder
-{
-    background-color: var(--primary)
-}
-
-#services .section-title-holder span
-{
-    color: var(--secondary);
-}
-
-.service-holder 
-{
-    display: inline-block;
-    width: 335px;
-}
-
-.service-holder img 
-{
-    display: inline-block;
-    width: 50px !important;
-    vertical-align: top;
-}
-
-.service-content-holder 
-{
-    display: inline-block;
-    width: 240px;
-    margin-top: 55px;
-    margin-left: 5px;
-}
-
-.service-title 
-{
-    font-size: 24px;
-    padding-bottom: 10px;
-}
-
-/* END SERVICE SECTION */
-
-
-
 /* PORTFOLIO SECTION */
 
 #portfolio
 {
     background-color: var(--bg);
     padding-top: 150px;
-}
-
-#portfolio .section-title-holder
-{
-    background-color: var(--secondary);
-}
-
-#portfolio .section-title-holder span
-{
-    color: var(--primary);
 }
 
 .page-template-page-portfolio .section
@@ -669,24 +621,12 @@ div.pp_default .pp_loaderIcon
 
 
 #cv {
-	background-color: var(--bg);
-	padding-top: 100px;
-}
-
-#cv .section-title-holder
-{
-    background-color: var(--secondary);
-}
-
-#cv .section-title-holder span
-{
-    color: var(--copy);
+    margin-top: 5vh;
 }
 
 #cv .content-title
 {
-    font-size: 100px;
-    margin-top: -20px;
+    font-size: 95px;
 }
 
 #cv .section-content-holder
@@ -723,13 +663,7 @@ div.pp_default .pp_loaderIcon
 
 
 #about {
-	background-color: var(--bg);
     padding: 150px 0;
-}
-
-#about .section-title-holder
-{
-    background-color: var(--secondary);
 }
 
 #about .section-title-holder span
@@ -807,11 +741,6 @@ div.pp_default .pp_loaderIcon
     padding-top: 200px;
 }
 
-#skills .section-title-holder
-{
-    background-color: var(--secondary);
-}
-
 #skills .section-title-holder span
 {
     color: var(--primary);
@@ -835,7 +764,7 @@ div.pp_default .pp_loaderIcon
     width: 100%;
     vertical-align: middle;
     overflow: hidden;
-    background-color: var(--bg);
+    background-color: var(--accent-primary);
     border-radius: 27px;
 }
 
@@ -891,9 +820,9 @@ div.pp_default .pp_loaderIcon
 
 #contact {
 	background-color: var(--primary);
-	background-image: url("../images/hero_img.jpg");
+	background-image: url("../images/hero_img.svg");
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: top right;
 	background-size: cover;
 	z-index: 3;
     padding-top: 100px;
@@ -903,7 +832,11 @@ div.pp_default .pp_loaderIcon
 #contact .section-title-holder
 {
     background-color: var(--secondary);
-    color: var(--secondary);
+}
+
+#contact .section-title-holder h2
+{
+    color: #ffffff;
 }
 
 #contact .section-title-holder span
@@ -937,7 +870,7 @@ div.pp_default .pp_loaderIcon
 /* FOOTER */
 
 footer {
-	background-color: #0d2e3b;
+	background-color: var(--bg-paper);
 }
 
 .footer {
@@ -954,10 +887,10 @@ footer {
     color: white;
 }
 
-copyright-footer
-{
-    color: white;
-    font-size: 6px;
+.copyright-footer {
+	font-weight: 300;
+	font-size: 14px;
+	color: var(--copy);
 }
 
 .footer-left, .footer-right
@@ -978,12 +911,6 @@ copyright-footer
 	margin: 0 15px;
 	font-size: 35px;
 	color: var(--primary);
-}
-
-.copyright-footer {
-	font-weight: 300;
-	font-size: 14px;
-	color: var(--copy);
 }
 
 footer .personal-footer {
@@ -1018,7 +945,7 @@ footer .personal-footer {
         margin: 12vh 0 1vh 0;
     }
     .intro-page {
-        height: 110vh;
+        height: 95vh;
     }
     .flip-container, .front, .back {
         height: 400px;
@@ -1053,7 +980,7 @@ footer .personal-footer {
 
     .section-title-holder h2
     {
-        font-size: 30px;
+        font-size: 38px;
         width: 180px;        
         line-height: 45px;
         margin-top: 55px;        
@@ -1209,6 +1136,7 @@ footer .personal-footer {
         position: relative !important;
         top: 0 !important;
         border-radius: 0%;
+        background-color: #ffffff;
     }
 
     .section-title-holder h2
@@ -1327,6 +1255,11 @@ footer .personal-footer {
 }
 
 @media screen and (max-width: 925px) {
+
+    .intro-page 
+    {
+        background-image:url(../images/hero_img_m.svg);
+    }
 
     .flip-container, .front, .back {
         height: 300px;
@@ -1524,6 +1457,11 @@ footer .personal-footer {
 
 
 @media screen and (max-width: 650px) {
+
+    .intro-page 
+    {
+        background-image:url(../images/hero_img_s.svg);
+    }
 
     .social-footer a {
         margin: 0 12px;
