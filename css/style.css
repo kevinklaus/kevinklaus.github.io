@@ -37,8 +37,8 @@ body {
 
 body a
 {
-    text-decoration: none;
-    color: var(--copy);
+    text-decoration: underline;
+    color: var(--primary);
     transition: color .2s linear;
 }
 
@@ -370,6 +370,14 @@ input[type='checkbox'] {
     z-index: 10;
 }
 
+.intro-page.cv
+{
+    height: 90vh;
+    background-image:url(../images/hero_img_cv.svg);
+    background-image: none;
+    background-color: #ffffff;
+}
+
 .top-logo {
     width: 180px;
     margin: 12vh 0 1vh 0;
@@ -419,18 +427,6 @@ h2.big-title
     position: absolute;
     bottom: 0;
     width: 100%;
-}
-
-ul.intro-list a
-{    
-    color: var(--primary);
-    transition: color .2s linear;
-    text-decoration: underline;
-}
-
-ul.intro-list a:hover
-{    
-    color: var(--secondary);
 }
 
 /* END HOME SECTION */
@@ -911,6 +907,7 @@ footer {
 }
 
 .social-footer a {
+    text-decoration: none;
 	margin: 0 15px;
 	font-size: 35px;
 	color: var(--primary);
