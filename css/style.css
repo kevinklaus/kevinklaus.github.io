@@ -5,15 +5,15 @@
     --accent-primary: #00017a;
     --accent-secondary: #d1401c;
     --bg:#fff;
-    --bg-paper: #f8f8ff;
+    --bg-paper: #f6f6ff;
     --copy: #333;
 }
 
 body
 {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-size: 16px;
-    line-height: 26px;
+    font-family: "Inclusive Sans", sans-serif;
+    font-size: 18px;
+    line-height: 29px;
     font-weight: 400;
     color: var(--copy);
     background: var(--bg);
@@ -148,12 +148,11 @@ body a:hover
 .main-menu.sm-clean a,
 .mob-menu
 {    
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 18px;
     line-height: 40px;
     color: var(--primary);
     transition: color .2s linear;
-    letter-spacing: 1px;
+    background-color: var(--bg-paper);
 }
 
 .main-menu.sm-clean .sub-menu a 
@@ -381,7 +380,7 @@ input[type='checkbox'] {
 h1.big-title
 {
     font-size: 56px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 h1.big-title,
@@ -396,13 +395,9 @@ h2.big-title
 
 h2.big-title
 {
+    font-family: "Inclusive Sans", sans-serif;
     padding-top: 0px;
-    font-weight: 300;
     font-size: 28px;
-}
-
-h2.big-title.increaseletterSpac {
-    letter-spacing: 2px;
 }
 
 .title-desc
@@ -937,11 +932,12 @@ footer .personal-footer {
 @media screen and (min-width: 1440px) {   
     h1.big-title {
         font-size: 70px;
-        font-weight: 500;
+        font-weight: 600;
+        letter-spacing: -1px;
     }
     h2.big-title {
-        padding-top: 20px;
-        font-size: 34px;
+        padding-top: 10px;
+        font-size: 32px;
     }
     .title-desc {
         font-size: 24px;
@@ -1542,7 +1538,6 @@ footer .personal-footer {
         font-size: 20px;
         padding-top: 8px;
         font-weight: 400;
-        letter-spacing: 2px !important;
     }
 
 	.title-desc
