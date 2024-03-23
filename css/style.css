@@ -385,9 +385,8 @@ h2.big-title
     font-size: 28px;
 }
 
-h2.big-title.uppercase {
-    /* text-transform: uppercase; */
-    letter-spacing: 5px;
+h2.big-title.increaseletterSpac {
+    letter-spacing: 2px;
 }
 
 .title-desc
@@ -865,7 +864,7 @@ footer {
 
 .footer a:hover
 {
-    color: white;
+    color: var(--accent-primary);
 }
 
 .copyright-footer {
