@@ -269,6 +269,7 @@ a.button {
 	font-weight: 500;
 	transition: all .3s linear;
 	letter-spacing: 0.4px;
+    min-width: 220px;
 }
 a.button:active
 {

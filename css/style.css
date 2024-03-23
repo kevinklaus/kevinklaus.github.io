@@ -19,6 +19,22 @@ body
     background: var(--bg);
 }
 
+body {
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 body a
 {
     text-decoration: none;
@@ -407,6 +423,18 @@ h2.big-title.increaseletterSpac {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+ul.intro-list a
+{    
+    color: var(--primary);
+    transition: color .2s linear;
+    letter-spacing: 1px;
+}
+
+ul.intro-list a::after
+{    
+    
 }
 
 /* END HOME SECTION */
@@ -800,9 +828,9 @@ div.pp_default .pp_loaderIcon
 
 #contact {
 	background-color: var(--primary);
-	background-image: url("../images/hero_img.svg");
+	background-image: url("../images/contact_bg.svg");
 	background-repeat: no-repeat;
-	background-position: top right;
+	background-position: top center;
 	background-size: cover;
 	z-index: 3;
     padding-top: 100px;
@@ -1437,6 +1465,10 @@ footer .personal-footer {
 
 
 @media screen and (max-width: 650px) {
+
+    a.button {
+        width: 70vw;
+    }
 
     .intro-page 
     {
