@@ -170,7 +170,7 @@ body a:hover
 .main-menu.sm-clean a:hover,
 .sm-clean li.active a
 {
-    color: var(--accent-primary);
+    color: var(--secondary);
 
 }
 
@@ -189,7 +189,7 @@ body a:hover
 }
 
 .mob-menu:hover {
-	color: var(--bg);
+	color: var(--secondary);
 }
 
 /* END TOP MENU */
@@ -432,9 +432,9 @@ ul.intro-list a
     letter-spacing: 1px;
 }
 
-ul.intro-list a::after
+ul.intro-list a:hover
 {    
-    
+    color: var(--secondary);
 }
 
 /* END HOME SECTION */
@@ -445,7 +445,7 @@ ul.intro-list a::after
 #portfolio
 {
     background-color: var(--bg);
-    padding-top: 150px;
+    padding: 150px 0;
 }
 
 .page-template-page-portfolio .section
@@ -627,9 +627,8 @@ div.pp_default .pp_loaderIcon
 
 /* CV SECTION*/
 
-
 #cv {
-    margin-top: 5vh;
+    padding: 150px 0;
 }
 
 #cv .content-title
@@ -746,7 +745,7 @@ div.pp_default .pp_loaderIcon
 #skills
 {
     background-color:  var(--bg);
-    padding-top: 200px;
+    padding: 150px 0;
 }
 
 #skills .section-title-holder span
