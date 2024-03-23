@@ -1,16 +1,16 @@
 jQuery(document).ready(function () {
-  jQuery(".section-title-holder")
-    .stick_in_parent({ offset_top: 64 })
-    .on("sticky_kit:stick", function (e) {
-      jQuery(".menu-wrapper, .menu-wrapper .sub-menu").css(
-        "backgroundColor",
-        jQuery(this).css("backgroundColor")
-      );
-      jQuery(".menu-wrapper a, .mob-menu").css(
-        "color",
-        jQuery(this).find(".section-num span").css("color")
-      );
-    });
+  // jQuery(".section-title-holder")
+  //   .stick_in_parent({ offset_top: 64 })
+  //   .on("sticky_kit:stick", function (e) {
+  //     jQuery(".menu-wrapper, .menu-wrapper .sub-menu").css(
+  //       "backgroundColor",
+  //       jQuery(this).css("backgroundColor")
+  //     );
+  //     jQuery(".menu-wrapper a, .mob-menu").css(
+  //       "color",
+  //       jQuery(this).find(".section-num span").css("color")
+  //     );
+  //   });
 
   jQuery(".section-title-holder")
     .stick_in_parent({ offset_top: 64 })
