@@ -103,7 +103,7 @@ a.wp-ver
 }
 .top-50
 {
-    margin-top: 50px;	
+    margin-top: 50px !important;	
 }
 .top-60
 {
