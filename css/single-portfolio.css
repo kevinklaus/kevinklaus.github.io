@@ -40,7 +40,7 @@
 {
 	top: -60px;
 	right: -60px;
-	background-color: var(--secondary);
+	background-color: var(--primary);
 	line-height: 0;
 	font-size: 0;
 	width: 60px;
@@ -59,7 +59,7 @@
 
 .single-portfolio .x-close:hover
 {
-	background-color: var(--accent-secondary);
+	background-color: var(--accent-primary);
 }
 
 .single-portfolio .entry-content .one

@@ -2,6 +2,7 @@
 
     --primary: #3b3dff;;
     --secondary: #ff733b;
+    --tertiary: #ffc823;
     --accent-primary: #00017a;
     --accent-secondary: #d1401c;
     --bg:#fff;
@@ -384,6 +385,10 @@ input[type='checkbox'] {
 	border-radius: 50%;
     background-color: var(--bg-paper);
 	/* box-shadow: 0 2px 14px 0px #444; */
+}
+
+.top-logo.cv {
+    background-color: var(--tertiary);
 }
 
 h1.big-title
