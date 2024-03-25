@@ -1,16 +1,5 @@
 /* SINGLE PORTFOLIO PAGE */
 
-:root {
-
-    --primary: #3b3dff;;
-    --secondary: #ff733b;
-    --accent-primary: #00017a;
-    --accent-secondary: #d1401c;
-    --bg:#fff;
-    --bg-paper: #f8f8ff;
-    --copy: #333;
-}
-
 .portfolio
 {
 	background-color: var(--bg);

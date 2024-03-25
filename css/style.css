@@ -1,10 +1,10 @@
 :root {
 
     --primary: #3b3dff;;
-    --secondary: #ff733b;
+    --secondary: #ff5c0b;
     --tertiary: #ffc823;
     --accent-primary: #00017a;
-    --accent-secondary: #d1401c;
+    --accent-secondary: #bd2900;
     --bg:#fff;
     --bg-paper: #f6f6ff;
     --copy: #333;
@@ -927,6 +927,8 @@ footer .personal-footer {
 	height: 80px;
 	margin: 15px;
     cursor: pointer;
+    background-color: var(--secondary);
+    border-radius: 50%;
 }
 
 /* END FOOTER */
