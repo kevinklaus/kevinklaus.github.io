@@ -794,8 +794,6 @@ div.pp_default .pp_loaderIcon
     top: 11px;
     z-index: 2;
     left: 16px;
-    font-weight: 900;
-    font-size: 16px;
     letter-spacing: 0.1px;
     line-height: 100%;
     transition: color .2s linear, left .2s linear;
@@ -1281,19 +1279,18 @@ footer .personal-footer {
 
     .lbl-toggle {
         display: inline-block;
-        color: var(--secondary);
+        color: var(--primary);
         text-align: center;
-        padding-left: 1px;
-        padding-right: 25px;
+        padding: 5px 25px 5px 12px;
         cursor: pointer;
         vertical-align: middle;
         text-decoration: none;
-        font-size: 16px;
-        transition:  .4s linear;
+        transition: .4s linear;
+        text-decoration: underline;
     }
 
     .lbl-toggle:hover {
-        color: #4d4d4d;
+        color: var(--secondary);
     }
 
     .lbl-toggle::after {
@@ -1328,7 +1325,7 @@ footer .personal-footer {
     }
 
     .toggle:checked + .lbl-toggle {
-        color: #4d4d4d;
+        color: var(--accent-primary);
         cursor: default;
         padding-bottom: 10px;
     }
