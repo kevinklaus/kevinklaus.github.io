@@ -69,29 +69,6 @@
 	padding-right: 100px;
 }
 
-.single-portfolio .entry-content h1
-{
-	padding: 0;
-	font-size: 20px;
-	line-height: 30px;
-}
-
-.portfolio-cta {
-	padding: 2%;
-	text-align: center;
-	font-size: 20px;
-	font-weight: 200;
-}
-
-
-.portfolio-cta-link {
-	color: white;
-}
-
-.portfolio-cta-link:hover {
-	color: var(--secondary);
-}
-
 
 /* END SINGLE PORTFOLIO */
 
