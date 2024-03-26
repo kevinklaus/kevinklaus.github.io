@@ -304,6 +304,10 @@ body a:hover
     margin-top: 300px;
 }
 
+#contact .section-content-holder {
+    margin-top: 240px;
+}
+
 .section-content-holder .content-title-holder
 {
     height: 100px;
@@ -312,13 +316,17 @@ body a:hover
 
 .section-content-holder .content-title {
     font-weight: 600;
-    text-align: right;
     font-size: 140px;
     letter-spacing: -1px;
     line-height: 100%;
     margin-top: 10px;
     color: var(--accent-primary);
     font-family: serif;
+    margin-bottom: 30px;
+}
+
+.section-content-holder .content-title.small {
+    font-size: 80px;
 }
 
 .extra-content-left
@@ -385,7 +393,7 @@ input[type='checkbox'] {
     background-color: var(--on-primary);
 }
 
-.top-logo {
+img.top-logo {
     width: 180px;
     margin: 12vh 0 1vh 0;
 	border-radius: 50%;
@@ -396,6 +404,19 @@ input[type='checkbox'] {
 .top-logo.cv {
     background-color: var(--tertiary);
 }
+
+img.small {
+    background: var(--primary);
+    border-radius: 20px;
+    height: 165px;
+}
+
+img.in_half {
+    border-radius: 20px;
+    width: 90%;
+}
+
+
 
 h1.big-title
 {
@@ -866,7 +887,6 @@ div.pp_default .pp_loaderIcon
 .contact-form
 {
     max-width: 100%;
-    width: 770px;
     margin: 0 auto;
     font-size: 22px;
     color: #9a9a9a;
@@ -1057,7 +1077,6 @@ footer .personal-footer {
     .section-content-holder .content-title 
     {    
         font-size: 130px;    
-        margin-top: -25px;
     }
 
     .member-content-holder 
@@ -1124,7 +1143,8 @@ footer .personal-footer {
         margin-left: 0;
     }
 
-    .section-content-holder.left 
+    .section-content-holder,
+    #contact .section-content-holder
     {
         margin-top: 0;
     }
@@ -1248,7 +1268,6 @@ footer .personal-footer {
     .section-content-holder .content-title 
     {
         font-size: 19vw;
-        margin-top: -40px;
     }
 
     .testimonial-slider-holder 
