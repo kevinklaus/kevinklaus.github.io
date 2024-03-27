@@ -59,6 +59,12 @@ body a:hover
     color: var(--secondary);
 }
 
+.img_label{
+    font-size: 15px;
+    width: 90%;
+    padding-left: 10px;
+}
+
 .accent-primary-text {
     color: var(--accent-primary);
 }
@@ -975,8 +981,13 @@ footer .personal-footer {
 	height: 80px;
 	margin: 15px;
     cursor: pointer;
-    background-color: var(--secondary);
+    background-color: var(--primary);
     border-radius: 50%;
+    transition: ease-in-out 0.5s;
+}
+
+#footer-logo:hover {
+    background-color: var(--accent-primary);
 }
 
 /* END FOOTER */
