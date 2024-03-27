@@ -1144,6 +1144,7 @@ footer .personal-footer {
     }
 
     .section-content-holder,
+    .section-content-holder.left,
     #contact .section-content-holder
     {
         margin-top: 0;
