@@ -102,7 +102,20 @@ body a:hover
 .doc-loader img
 {
     width: 90px;
-    height: 90px;        
+    height: 90px;
+    animation: pulse 2s infinite;        
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
 }
 
 .content-1170
