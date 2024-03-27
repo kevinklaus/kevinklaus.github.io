@@ -142,15 +142,10 @@ body a:hover
     line-height: 0;
 }
 
-ul.num_list 
+ul.list 
 {
-    list-style: decimal;
+    list-style: disc;
     margin: 0px 0px 5px 20px;
-}
-
-ul.num_list li
-{
-    margin: 15px 0px;
 }
 
 
