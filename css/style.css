@@ -73,6 +73,31 @@ body a:hover
     color: var(--primary);
 }
 
+.accent-primary-headline {
+    color: var(--primary);
+    font-size: 22px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    line-height: 140%;
+}
+
+div.tags
+{
+    position: relative;
+    right: 8px;
+}
+
+div.tags span.tag
+{
+    color: var(--accent-primary);
+    background-color: var(--bg);
+    border-radius: 20px;
+    padding: 2px 14px 2px 14px;
+    font-size: 16px;
+    margin: 8px 2px 0px 0px;
+    display: inline-block;
+}
+
 .strong
 {
     font-weight: bold;
@@ -336,7 +361,7 @@ ul.list
 .section-content-holder .content-title-holder
 {
     height: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .section-content-holder .content-title {
@@ -1317,6 +1342,12 @@ footer .personal-footer {
 }
 
 @media screen and (max-width: 925px) {
+
+    div.tags
+    {
+        position: relative;
+        right: 0px;
+    }
 
     .intro-page 
     {
