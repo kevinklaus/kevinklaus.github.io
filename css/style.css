@@ -377,6 +377,7 @@ ul.list
 
 .section-content-holder .content-title.small {
     font-size: 80px;
+    line-height: 90px;
 }
 
 .extra-content-left
@@ -1605,6 +1606,11 @@ footer .personal-footer {
 
 
 @media screen and (max-width: 450px) {
+
+    .section-content-holder .content-title.small {
+        font-size: 68px;
+        line-height: 78px;
+    }
 
     .social-footer a {
         margin: 0 6px;
