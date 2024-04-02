@@ -59,6 +59,10 @@ body a:hover
     color: var(--secondary);
 }
 
+body p {
+    overflow: auto;
+}
+
 .img_label{
     font-size: 15px;
     width: 90%;
@@ -358,24 +362,18 @@ ul.list
     margin-top: 240px;
 }
 
-.section-content-holder .content-title-holder
-{
-    height: 100px;
-    padding-bottom: 30px;
-}
-
 .section-content-holder .content-title {
     font-weight: 600;
     font-size: 140px;
     letter-spacing: -1px;
     line-height: 100%;
-    margin-top: 10px;
+    padding-top: 10px;
     color: var(--accent-primary);
     font-family: serif;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
-.section-content-holder .content-title.small {
+.section-content-holder h1.content-title.small {
     font-size: 80px;
     line-height: 90px;
 }
@@ -428,7 +426,7 @@ input[type='checkbox'] {
 
 .intro-page 
 {
-    height: 90vh;
+    height: 95vh;
     background-color: var(--primary);
     background-image:url(../images/hero_img.svg);
     background-position: top center;
@@ -452,7 +450,7 @@ img.top-logo {
 	/* box-shadow: 0 2px 14px 0px #444; */
 }
 
-.top-logo.cv {
+img.top-logo.cv {
     background-color: var(--tertiary);
 }
 
@@ -467,12 +465,11 @@ img.in_half {
     width: 90%;
 }
 
-
-
 h1.big-title
 {
     font-size: 56px;
     font-weight: 700;
+    margin-top: 50px;
 }
 
 h1.big-title,
@@ -1027,9 +1024,9 @@ footer .personal-footer {
     .title-desc {
         font-size: 24px;
     }
-    .top-logo
+    img.top-logo
     {
-        width: 14vw;
+        width: 15vw;
         margin: 12vh 0 1vh 0;
     }
     .intro-page {
@@ -1435,7 +1432,7 @@ footer .personal-footer {
     h1.big-title
     {
         padding-bottom: 0;
-        display: inline;
+        display: inline-block;
     }
 
     h1.big-title span 
@@ -1607,9 +1604,10 @@ footer .personal-footer {
 
 @media screen and (max-width: 450px) {
 
-    .section-content-holder .content-title.small {
+    .section-content-holder h1.content-title.small {
         font-size: 68px;
         line-height: 78px;
+        overflow: hidden;
     }
 
     .social-footer a {
@@ -1640,7 +1638,7 @@ footer .personal-footer {
 		font-size: 16px;
 	}
 
-	.top-logo
+	img.top-logo
 	{
 		width: 40vw;
 	}
