@@ -26,6 +26,7 @@ function includeHTML() {
   }
 }
 
+includeHTML();
 
 jQuery(document).ready(function () {
   // jQuery(".section-title-holder")
