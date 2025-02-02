@@ -234,11 +234,6 @@ ul.list
 
 }
 
-.sm-clean li.active a#homeMenu
-{
-    color: var(--on-primary);
-}
-
 .mob-menu {
     font-size: 22px;
     font-weight: 300;
