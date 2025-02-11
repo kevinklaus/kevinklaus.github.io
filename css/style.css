@@ -439,7 +439,7 @@ input[type='checkbox'] {
 
 img.top-logo {
     width: 180px;
-    margin: 12vh 0 1vh 0;
+    margin: 18vh 0 1vh 0;
 	border-radius: 50%;
     background-color: var(--secondary);
 	/* box-shadow: 0 2px 14px 0px #444; */
@@ -1022,7 +1022,7 @@ footer .personal-footer {
     img.top-logo
     {
         width: 15vw;
-        margin: 12vh 0 1vh 0;
+        margin: 15vh 0 1vh 0;
     }
     .intro-page {
         height: 100vh;
