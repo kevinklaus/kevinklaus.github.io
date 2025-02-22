@@ -235,12 +235,10 @@ ul.list
 }
 
 .mob-menu {
-    font-size: 22px;
-    font-weight: 300;
-    font-family: serif;
     display: none;
     padding: 7px 0;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .mob-menu:hover {
