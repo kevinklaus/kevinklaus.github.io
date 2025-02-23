@@ -13,7 +13,7 @@
     --bg:#fff;
     --bg-paper: #f6f6ff;
 
-    --copy: #333;
+    --copy: #272f43;
 }
 
 body
@@ -241,6 +241,10 @@ ul.list
     padding: 7px 0;
     letter-spacing: 1px;
     text-transform: uppercase;
+    border: none;
+    width: 100%;
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
 .mob-menu:hover {
@@ -714,7 +718,7 @@ div.pp_default .pp_loaderIcon
 }
 
 .cv-date {
-    font-weight: 300;
+    font-weight: 400;
     color: var(--accent-primary);
 }
 
