@@ -19,6 +19,8 @@
 body
 {
     font-family: "Inclusive Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     font-size: 18px;
     line-height: 29px;
     font-weight: 400;
@@ -80,7 +82,7 @@ body p {
 .accent-primary-headline {
     color: var(--primary);
     font-size: 22px;
-    font-family: 'Work Sans';
+    font-family: "Atkinson Hyperlegible Next", serif;
     font-weight: 600;
     line-height: 140%;
 }
@@ -318,7 +320,7 @@ ul.list
 .section-title-holder h2
 {
     font-weight: 400;
-    font-family: serif;
+    font-family: "Atkinson Hyperlegible Next", serif;
     font-size: 50px;
     margin-left: 100px;
     width: 240px;
@@ -362,7 +364,7 @@ ul.list
     line-height: 100%;
     padding-top: 10px;
     color: var(--accent-primary);
-    font-family: serif;
+    font-family: "Atkinson Hyperlegible Next", serif;
     padding-bottom: 30px;
 }
 
