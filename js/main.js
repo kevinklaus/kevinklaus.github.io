@@ -87,9 +87,9 @@ jQuery(document).ready(function () {
 
 jQuery(window).load(function () {
   //Show-Hide Mobile Menu
-  jQuery(".mob-menu").on("click", showHideMobMenu);
+  jQuery(".mob-menu").on("click tap touchstart", showHideMobMenu);
   if (jQuery("body").width() <= 925) {
-    jQuery(".main-menu a").on("click", hideMobMenuItemClick);
+    jQuery(".main-menu a").on("click tap touchstart", hideMobMenuItemClick);
   }
 
   //Set each image slider
