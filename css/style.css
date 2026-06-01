@@ -44,6 +44,15 @@ body {
     }
 }
 
+/* --- Train Doggo Ergänzungen --- */
+.td-teaser {
+    position: relative;
+    right: 8px;
+    background-color: var(--bg);
+    border-radius: 24px;
+    padding: 24px;
+}
+
 body a
 {
     text-decoration: underline;
@@ -494,7 +503,7 @@ h2.big-title
     line-height: 30px;
     max-width: 425px;
     margin: 0 auto;
-    color: var(--on-primary);
+    color: var(--secondary);
     padding-bottom: 20px;
     padding-top: 20px;
     font-weight: 300;
@@ -1546,10 +1555,6 @@ footer .personal-footer {
 
 
 @media screen and (max-width: 650px) {
-
-    a.button {
-        width: 70vw;
-    }
 
     .intro-page 
     {

@@ -269,8 +269,16 @@ a.button {
 	font-weight: 500;
 	transition: all .3s linear;
 	letter-spacing: 0.4px;
-    min-width: 220px;
 }
+
+a.button.small {
+    padding: 8px 25px;
+    border-bottom-width: 3px;
+	font-size: 16px;
+    right: 4px;
+    position: relative;
+}
+
 a.button:active
 {
     position: relative;
@@ -287,7 +295,7 @@ a.button:hover
 a.button.secondary {
 	color: var(--on-secondary);
 	background-color: var(--secondary);
-	border-bottom: solid 4px var(--accent-secondary);
+	border-bottom-color: var(--accent-secondary);
 }
 
 a.button.secondary:hover
