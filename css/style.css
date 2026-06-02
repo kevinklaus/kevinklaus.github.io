@@ -452,7 +452,7 @@ input[type='checkbox'] {
 
 img.top-logo {
     width: 180px;
-    margin: 18vh 0 1vh 0;
+    margin: 16vh 0 1vh 0;
 	border-radius: 50%;
     background-color: var(--tertiary);
 	/* box-shadow: 0 2px 14px 0px #444; */
@@ -477,14 +477,14 @@ h1.big-title
 {
     font-size: 56px;
     font-weight: 700;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 h1.big-title,
 h2.big-title
 {
     line-height: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
     color: var(--primary);
     margin-left: auto;
     margin-right: auto;
@@ -492,9 +492,9 @@ h2.big-title
 
 h2.big-title
 {
-    font-family: "Inclusive Sans", sans-serif;
     padding-top: 0px;
-    font-size: 28px;
+    font-size: 26px;
+    font-weight: 400;
 }
 
 .title-desc
@@ -1034,8 +1034,8 @@ footer .personal-footer {
     }
     img.top-logo
     {
-        width: 15vw;
-        margin: 15vh 0 1vh 0;
+        width: 13vw;
+        margin: 14vh 0 1vh 0;
     }
     .intro-page {
         height: 100vh;
@@ -1434,7 +1434,7 @@ footer .personal-footer {
     h2.big-title
     {
         font-size: 24px;
-        padding-top: 10px;
+        padding-top: 16px;
     }
 
     h1.big-title
@@ -1556,6 +1556,12 @@ footer .personal-footer {
 
 @media screen and (max-width: 650px) {
 
+    a.button {
+        padding: 8px 25px;
+        border-bottom-width: 3px;
+        font-size: 16px;    
+    }
+
     .intro-page 
     {
         background-image:url(../images/hero_img_s.svg);
@@ -1633,8 +1639,7 @@ footer .personal-footer {
     
     h2.big-title {
         font-size: 20px;
-        padding-top: 8px;
-        font-weight: 400;
+        font-weight: 300;
     }
 
 	.title-desc

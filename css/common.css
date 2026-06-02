@@ -279,6 +279,12 @@ a.button.small {
     position: relative;
 }
 
+a.button span.fa {
+    left: 6px;
+    top: 2px;
+    position: relative;
+}
+
 a.button:active
 {
     position: relative;
