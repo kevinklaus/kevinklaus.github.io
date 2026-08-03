@@ -113,6 +113,18 @@ div.tags span.tag
     display: inline-block;
 }
 
+div.tags span.tag.large {
+    font-size: 22px;       /* Increased from the standard 16px */
+    padding: 6px 22px;     /* Slightly more padding for a balanced, larger pill */
+    margin: 10px 4px 0px;  /* Adjusted margin for center alignment */
+}
+
+/* Optional: Ensure the tags container in the hero centers the badges */
+div.tags.center-text {
+    text-align: center;
+    right: 0; /* Overrides the relative right: 8px from the default .tags class */
+}
+
 .strong
 {
     font-weight: bold;
@@ -426,6 +438,35 @@ input[type='checkbox'] {
 
 
 /* HOME SECTION */
+
+/* --- Hero Skills Formatting --- */
+.hero-skills {
+    font-size: 20px;
+    color: var(--accent-primary);
+    font-weight: 500;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.hero-skill {
+    display: inline-block;
+    color: var(--primary); /* Keeps the text on-brand with your blue */
+}
+
+/* --- Outlined / Ghost Button --- */
+.button.outlined {
+    background-color: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    box-shadow: none; 
+}
+
+.button.outlined:hover {
+    background-color: var(--primary);
+    color: var(--on-primary);
+    border-color: var(--primary);
+    transition: all 0.2s linear;
+}
 
 .full-height-center
 {

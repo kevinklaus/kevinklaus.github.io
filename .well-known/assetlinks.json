@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls", "delegate_permission/common.use_as_origin"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.github.kevinklaus.twa",
+    "sha256_cert_fingerprints": ["CD:DA:0E:30:AB:F4:8D:F1:AB:17:98:88:F0:4A:F1:11:4F:5F:98:5F:DD:5B:78:10:74:DC:7D:14:94:F8:7D:40"]
+  }
+}]
